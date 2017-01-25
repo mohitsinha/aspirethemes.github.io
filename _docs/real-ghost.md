@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: Real
 * Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.3
-* Released: 19 Jan 2017
+* Current Version: 1.1.4
+* Released: 25 Jan 2017
 
 ---
 
@@ -17,6 +17,7 @@ platform: Ghost
 * [Static Pages](#static-pages)
 * [Tags Page](#tags-page)
 * [Navigation](#navigation)
+* [Search](#search)
 * [Disqus Comments](#disqus-comments)
 * [Subscribe Form](#subscribe-form)
 * [Google Analytics](#google-analytics)
@@ -71,6 +72,12 @@ To include a static page on your navigation menu, first, type the name of the pa
 ![label field](/images/docs/ghost/shared/label-field.png)
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
+
+---
+
+### Search
+
+For the search to work properly, please enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
 
 ---
 

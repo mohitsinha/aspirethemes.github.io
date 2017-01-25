@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: Maxima
 * Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.0.3
-* Released: 22 Jan 2016
+* Current Version: 1.0.4
+* Released: 25 Jan 2016
 
 ---
 
@@ -16,6 +16,7 @@ platform: Ghost
 * [Upload to Ghost.io](#upload-to-ghostio)
 * [Static Pages](#static-pages)
 * [Navigation](#navigation)
+* [Search](#search)
 * [Tags Page](#tags-page)
 * [Disqus Comments](#disqus-comments)
 * [Subscribe Form](#subscribe-form)
@@ -73,6 +74,12 @@ To include a static page on your navigation menu, first, type the name of the pa
 ![label field](/images/docs/ghost/shared/label-field.png)
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
+
+---
+
+### Search
+
+For the search to work properly, please enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
 
 ---
 
