@@ -1,0 +1,31 @@
+/*------------------------------------*\
+  Components > Feature
+\*------------------------------------*/
+
+.c-feature {
+  position: relative;
+  height: -webkit-calc(100% - #{double($base-spacing-unit)});
+  height:         calc(100% - #{double($base-spacing-unit)});
+  padding: double($base-spacing-unit);
+  margin-bottom: double($base-spacing-unit);
+
+  border: 1px solid $color-border;
+
+  &__icon {
+    display: block;
+    width: triple($base-spacing-unit);
+    height: triple($base-spacing-unit);
+    margin-bottom: $base-spacing-unit;
+    fill: $color-brand;
+  }
+
+  &__title {
+    margin-bottom: $base-spacing-unit;
+  }
+
+  &__description {
+    margin-bottom: 0;
+    font-size: $font-size-medium;
+    line-height: $line-height-medium;
+  }
+}

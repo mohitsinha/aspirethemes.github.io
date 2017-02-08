@@ -9,4 +9,8 @@ hr {
   border: 0;
 
   background-color: $color-border;
+
+  &.bare-top {
+    margin-top: 0;
+  }
 }
