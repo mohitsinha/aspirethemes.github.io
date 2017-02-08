@@ -37,6 +37,4 @@ Aspire is created for those who want to create a beautiful online magazine or ne
 
 Aspire it is 100% responsive, that means it fits with all different kind of devices in different sizes.
 
-[![aspire-ghost-performance](/images/themes/shared/google-performance-test.png)](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Faspire.aspirethemes.com%2F&tab=desktop)
-
 ![aspire-ghost-full-preview](/images/themes/ghost/aspire/full-preview.png)
