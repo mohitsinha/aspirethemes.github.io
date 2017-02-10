@@ -4,7 +4,7 @@ name:         Maxima – WordPress
 title:        Maxima
 date:         2017-1-14
 thumbnail:    images/themes/wordpress/maxima/preview.png
-price:        39
+price:        49
 categories:   themes
 type:         wordpress
 body-class:   is-theme
