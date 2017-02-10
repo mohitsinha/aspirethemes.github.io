@@ -1,6 +1,6 @@
 <footer class='c-footer'>
-  <div class='o-grid'>
 
+  <div class='o-grid'>
     <div class='o-grid__col o-grid__col--1-4'>
       <h3 class='c-footer__heading'>Aspire</h3>
       <ul class='o-plain-list c-footer-list'>
@@ -46,16 +46,33 @@
       </ul>
     </div>
 
-    <div class='ef o-grid__col o-grid__col--1-4'>
+    <div class='o-grid__col o-grid__col--1-4'>
       <h3 class='c-footer__heading'>Newsletter</h3>
       <form action='//aspirethemes.us12.list-manage.com/subscribe/post?u=9723f3c5c3a2637fbba3bc673&amp;id=7b50db9989' method='post' target='_blank'>
         <input type='email' name='EMAIL' class="c-input" placeholder='Enter Your Email'>
       </form>
     </div>
 
-    <div class='o-grid__col'>
-      <small class="c-footer__copy">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</small>
+    <div class='u-hidden o-grid__col'>
+      <small class='c-footer__copy'>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</small>
     </div>
-
   </div>
+
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <div class='c-footer__copy'>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--2-4'>
+            &copy; {{ site.time | date: '%Y' }} {{ site.title }}
+          </div>
+          <div class='c-footer__by o-grid__col o-grid__col--2-4'>
+            Built with <span class='c-footer__icon' data-icon='ei-heart' data-size='s'></span> in Cairo Egypt
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
 </footer>

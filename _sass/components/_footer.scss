@@ -19,11 +19,20 @@
   }
 
   &__copy {
-    display: block;
-
+    font-size: $font-size-small;
     padding-top: $base-spacing-unit;
-
     border-top: 1px solid $color-border;
+  }
+
+  &__by {
+    @include mq($from: tablet) {
+      text-align: right;
+    }
+  }
+
+  &__icon {
+    vertical-align: middle;
+    fill: $color-alert;
   }
 }
 
