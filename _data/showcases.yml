@@ -16,6 +16,12 @@
   type:       WordPress
   screenshot: consciousvegan.png
 
+- title:      REV MARTINE OBORNE
+  url:        http://www.martineoborne.com/
+  theme:      real
+  type:       Ghost
+  screenshot: martineoborne.png
+
 - title:      Llei d'Engel
   url:        http://lleiengel.cat/
   theme:      east
