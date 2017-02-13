@@ -1,0 +1,71 @@
+- title:      Autism Ladder
+  url:        http://www.autismladder.com/
+  theme:      magaz
+  type:       Ghost
+  screenshot: autismladder.png
+
+- title:      Noah Bershatsky
+  url:        https://bershatsky.com/
+  theme:      maxima
+  type:       Ghost
+  screenshot: bershatsky.png
+
+- title:      CONSCIOUS VEGAN
+  url:        http://consciousvegan.co.uk/
+  theme:      maxima
+  type:       WordPress
+  screenshot: consciousvegan.png
+
+- title:      Llei d'Engel
+  url:        http://lleiengel.cat/
+  theme:      east
+  type:       WordPress
+  screenshot: lleiengel.png
+
+- title:      Zambia Awakens
+  url:        http://zambiaawakens.com/
+  theme:      aspire
+  type:       WordPress
+  screenshot: zambiaawakens.png
+
+- title:      INSIGHT by expertDB
+  url:        https://www.expertdb.com/blog/
+  theme:      magaz
+  type:       WordPress
+  screenshot: expertdb.png
+
+- title:      Mdwnon
+  url:        http://mdwnon.com/Blog/
+  theme:      aspire
+  type:       WordPress
+  screenshot: mdwnon.png
+
+- title:      Anaesthesie
+  url:        http://www.anaesthesie.news/
+  theme:      aspire
+  type:       WordPress
+  screenshot: anaesthesie.png
+
+- title:      MyCognition
+  url:        http://www.mycognition.com/blog/
+  theme:      east
+  type:       WordPress
+  screenshot: mycognition.png
+
+- title:      The Zen School
+  url:        http://www.thezenschool.com/
+  theme:      real
+  type:       WordPress
+  screenshot: thezenschool.png
+
+- title:      Axel Rock
+  url:        http://axelrock.fr/
+  theme:      east
+  type:       Jekyll
+  screenshot: axelrock.png
+
+- title:      Agent of Chaos
+  url:        http://agentof.ch/aos/
+  theme:      midan
+  type:       Ghost
+  screenshot: agentof.png

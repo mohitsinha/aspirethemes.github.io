@@ -1,0 +1,28 @@
+---
+layout: default
+title: Showcases
+excerpt: A growing collection of beautiful websites built with Aspire Themes
+---
+
+<div class='o-grid'>
+  <div class='o-grid__col o-grid__col--4-4'>
+    <h4>A growing collection of creative websites built with Aspire Themes</h4>
+    <hr>
+  </div>
+</div>
+
+<div class='o-grid'>
+  {% for showcase in site.data.showcases %}
+    <div class='o-grid__col o-grid__col--2-4'>
+      <div class='c-showcase-card'>
+        <a href='{{ showcase.url }}' target='_blank'>
+          <div class='js-fadein c-showcase-card__image' style='background-image: url(/images/showcases/{{ showcase.type }}/{{ showcase.theme }}/{{ showcase.screenshot }})'></div>
+        </a>
+
+        <a class='c-showcase-card__title' href='{{ showcase.url }}' target='_blank'>{{ showcase.title }}</a>
+
+        <a class='c-showcase-card__theme' href='{{ site.baseurl }}/themes/{{ showcase.theme }}-{{ showcase.type }}' target='_blank'>{{ showcase.theme | capitalize }} {{ showcase.type }}</a></a>
+      </div>
+    </div>
+  {% endfor %}
+</div>

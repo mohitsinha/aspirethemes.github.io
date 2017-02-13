@@ -13,7 +13,6 @@
   }
 
   a:not(.c-btn) {
-    transition: $global-transition;
     text-decoration: underline;
 
     @include attention() {

@@ -16,8 +16,6 @@
   }
 
   &__logo {
-    transition: $global-transition;
-
     @include attention() {
       text-decoration: none;
 

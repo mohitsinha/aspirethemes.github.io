@@ -46,8 +46,6 @@
   &__link {
     display: block;
 
-    transition: $global-transition;
-
     font-size: $font-size-small;
 
     @include attention() {

@@ -1,10 +1,10 @@
 /*------------------------------------*\
-  Components > Post Card
+  Components > Showcase Card
 \*------------------------------------*/
 
-.c-post-card {
-  display: block;
-
+.c-showcase-card {
+  position: relative;
+  overflow: hidden;
   height: calc(100% - #{double($base-spacing-unit)});
   margin-bottom: double($base-spacing-unit);
   padding: double($base-spacing-unit);
@@ -12,17 +12,11 @@
   border: 1px solid $color-border;
   background-color: $bg-color-gray;
 
-  @include attention() {
-    text-decoration: none;
-
-    background-color: $color-white;
-  }
-
   &__image {
-    margin-bottom: $base-spacing-unit;
+    margin-bottom: double($base-spacing-unit);
 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 
     @include mq($from: tablet) {
@@ -36,24 +30,27 @@
     }
 
     &:after {
-      display: block;
-
-      width: 100%;
-      padding-bottom: 56.25%;
-
       content: '';
+      display: block;
+      width: 100%;
+      padding-bottom: 100%;
     }
-  }
-
-  &__date {
-    display: block;
-
-    font-size: $font-size-small;
   }
 
   &__title {
     margin-bottom: 0;
     font-size: $font-size-base;
-    line-height: $line-height-base;
+
+    @include mq($from: desktop) {
+      float: left;
+    }
+  }
+
+  &__theme {
+    color: $color-brand;
+
+    @include mq($from: desktop) {
+      float: right;
+    }
   }
 }
