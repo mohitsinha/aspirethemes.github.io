@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: Real
 * Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.4
-* Released: 25 Jan 2017
+* Current Version: 1.1.5
+* Released: 13 Feb 2017
 
 ---
 
