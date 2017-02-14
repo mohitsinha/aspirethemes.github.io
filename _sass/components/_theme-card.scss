@@ -48,9 +48,9 @@
     position: absolute;
     right: double($base-spacing-unit);
     bottom: double($base-spacing-unit);
+    line-height: initial;
 
     letter-spacing: .05em;
-
     color: $color-brand;
 
     sub { bottom: auto; }
