@@ -22,6 +22,10 @@
   }
 
   &__link {
+    &--active {
+      color: $color-brand;
+    }
+
     @include attention() {
       color: $color-brand;
       text-decoration: none;
