@@ -6,6 +6,10 @@ $(document).ready(function() {
 
   $('.c-content').fitVids();
 
+  // AnchorJS
+
+  anchors.add('.c-content h3, .c-content h4');
+
   // Off Canvas menu
 
   $('.js-off-canvas-toggle').click(function(e) {
