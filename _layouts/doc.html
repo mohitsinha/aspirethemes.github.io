@@ -6,7 +6,12 @@ layout: default
   <div class='o-grid__col o-grid__col--3-4 o-grid__col--center'>
 
     <div class='c-content'>
-      <h2 class='c-content__title'>{{ page.title }}</h2>
+      <h2 class='c-content__title'>
+        {{ page.title }}
+        <a href='{{ site.baseurl }}/themes/{{ page.title | downcase }}-{{ page.platform | downcase }}' target='_blank'>
+          <span data-icon='ei-external-link' data-size='s' title='Visit Theme Page'></span>
+        </a>
+      </h2>
 
       <hr>
 
