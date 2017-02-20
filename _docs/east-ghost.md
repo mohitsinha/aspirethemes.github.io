@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: East
 * Description: Blog and Multipurpose Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.6
-* Released: 9 November 2016
+* Current Version: 1.1.7
+* Released: 20 Feb 2017
 
 ---
 
@@ -16,6 +16,8 @@ platform: Ghost
 * [Upload to Ghost.io](#upload-to-ghostio)
 * [Static Pages](#static-pages)
 * [Navigation](#navigation)
+* [Search](#search)
+* [Tags Page](#tags-page)
 * [Disqus Comments](#disqus-comments)
 * [Subscribe Form](#subscribe-form)
 * [Google Analytics](#google-analytics)
@@ -72,6 +74,26 @@ To include a static page on your navigation menu, first, type the name of the pa
 ![label field](/images/docs/ghost/shared/label-field.png)
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
+
+---
+
+### Search
+
+For the search to work properly, please enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
+
+---
+
+### Tags Page
+
+To enable the tags page:
+
+- Enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
+- Create a new post and call it `Tags` for example, and make sure that the POST URl is `tags`.
+- Click the `Turn this post into a static page` checkbox.
+- Publish the page.
+- To add the page to the navigation, please check the [Navigation](#navigation) section above.
+
+![static page](/images/docs/ghost/shared/tags-page.png)
 
 ---
 
