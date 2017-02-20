@@ -75,3 +75,9 @@
   theme:      midan
   type:       Ghost
   screenshot: agentof.png
+
+- title:      The Guardant
+  url:        http://www.theguardant.com/
+  theme:      Aspire
+  type:       Ghost
+  screenshot: theguardant.png
