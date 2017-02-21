@@ -16,6 +16,12 @@
   type:       WordPress
   screenshot: consciousvegan.png
 
+- title:      AfterShip
+  url:        https://blog.aftership.com/
+  theme:      Aspire
+  type:       Ghost
+  screenshot: aftership.png
+
 - title:      REV MARTINE OBORNE
   url:        http://www.martineoborne.com/
   theme:      real

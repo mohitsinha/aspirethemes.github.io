@@ -111,15 +111,15 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 
 To set up the Twitter feed:
 
-* Go to your [Twitter](https://twitter.com/) settings page.
-* Go to **Widgets** on the left side.
-* Create a new widget and customize it to your requirements.
-* When you create a widget, Twitter will show you a box containing source code, from this code you will see a long number like: `677398615455834112`.
-* Just copy and paste it as a value for the `twitterWidgetID` variable inside `assets/js/script.js` file (line 146).
+* Go to [publish.twitter.com](https://publish.twitter.com/).
+* Enter a Twitter URl into the input box and press *Enter*.
+* Select *Embedded Timeline*.
+* You will see a Timeline preview and you can customize it as required.
+* Copy the code by clicking the *Copy Code* button.
+* Open *partials/sidebar/twitter-widget.hbs* file and replace line *5* with the copied code.
+* Save and you are done.
 
-{% highlight js %}
-var twitterWidgetID = '677398615455834112';
-{% endhighlight %}
+<script src="//fast.wistia.com/embed/medias/yny59lxsto.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:55.31% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_yny59lxsto videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 
 ---
 
