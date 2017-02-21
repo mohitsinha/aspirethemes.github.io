@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: Magaz
 * Description: Magazine and Multipurpose Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.8
-* Released: 18 Dec 2016
+* Current Version: 1.1.9
+* Released: 21 Feb 2017
 
 ---
 
@@ -16,6 +16,7 @@ platform: Ghost
 * [Upload to Ghost.io](#upload-to-ghostio)
 * [Static Pages](#static-pages)
 * [Navigation](#navigation)
+* [Search](#search)
 * [Disqus Comments](#disqus-comments)
 * [Subscribe Form](#subscribe-form)
 * [Google Analytics](#google-analytics)
@@ -73,6 +74,12 @@ To include a static page on your navigation menu, first, type the name of the pa
 ![label field](/images/docs/ghost/shared/label-field.png)
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
+
+---
+
+### Search
+
+For the search to work properly, please enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
 
 ---
 
@@ -136,7 +143,7 @@ Social media links are placed in different places (files):
 * `partials/footer.hbs`
 * `partials/header.hbs`
 
-Ghost 0.8.0 supports adding Facebook and Twitter profile urls from the admin panel, go to **Settings > General** and add your URLs, and this will update the Facebook and Twitter URLs in the locations mentioned above, other social media URLs you can add it from the files.
+Ghost 0.8.0 supports adding Facebook and Twitter profile URLs from the admin panel, go to **Settings > General** and add your URLs, and this will update the Facebook and Twitter URLs in the locations mentioned above, other social media URLs you can add it from the files.
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
