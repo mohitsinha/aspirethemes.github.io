@@ -1,8 +1,8 @@
-- title:      Autism Ladder
-  url:        http://www.autismladder.com/
-  theme:      magaz
+- title:      AfterShip
+  url:        https://blog.aftership.com/
+  theme:      Aspire
   type:       Ghost
-  screenshot: autismladder.png
+  screenshot: aftership.png
 
 - title:      Noah Bershatsky
   url:        https://bershatsky.com/
@@ -10,17 +10,17 @@
   type:       Ghost
   screenshot: bershatsky.png
 
+- title:      Autism Ladder
+  url:        http://www.autismladder.com/
+  theme:      magaz
+  type:       Ghost
+  screenshot: autismladder.png
+
 - title:      CONSCIOUS VEGAN
   url:        http://consciousvegan.co.uk/
   theme:      maxima
   type:       WordPress
   screenshot: consciousvegan.png
-
-- title:      AfterShip
-  url:        https://blog.aftership.com/
-  theme:      Aspire
-  type:       Ghost
-  screenshot: aftership.png
 
 - title:      REV MARTINE OBORNE
   url:        http://www.martineoborne.com/
