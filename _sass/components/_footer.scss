@@ -4,7 +4,6 @@
 
 .c-footer {
   padding: double($base-spacing-unit) 0;
-
   background-color: $bg-color-gray;
 
   @include mq($from: desktop) {
@@ -12,8 +11,8 @@
   }
 
   &__heading {
-    margin-bottom: half($base-spacing-unit);
-
+    margin-bottom: $base-spacing-unit;
+    letter-spacing: 2px;
     text-transform: uppercase;
     font-size: $font-size-medium;
   }
@@ -37,7 +36,7 @@
 }
 
 .c-footer-list {
-  margin-bottom: $base-spacing-unit;
+  margin-bottom: double($base-spacing-unit);
 
   &__link {
     margin-bottom: half($base-spacing-unit);
@@ -45,12 +44,10 @@
 
   &__link {
     display: block;
-
     font-size: $font-size-small;
 
     @include attention() {
       text-decoration: none;
-
       color: $color-brand;
     }
   }
