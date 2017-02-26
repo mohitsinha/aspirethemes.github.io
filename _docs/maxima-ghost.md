@@ -12,8 +12,7 @@ platform: Ghost
 
 ---
 
-* [Upload to Self Hosted Ghost](#upload-to-self-hosted-ghost)
-* [Upload to Ghost.io](#upload-to-ghostio)
+* [Theme Installation](#theme-installation)
 * [Static Pages](#static-pages)
 * [Navigation](#navigation)
 * [Search](#search)
@@ -29,29 +28,13 @@ platform: Ghost
 
 ---
 
-### Upload to Self Hosted Ghost
+### Theme Installation
 
-1. Locate the **maxima** theme directory within the download files.
-2. Login to FTP/SFTP of your blog, or the file browser of your provided hosting service.
-3. Navigate to the **/content/themes** directory within your Ghost installation.
-4. Upload the **maxima** file found in step one into the remote **/content/themes** directory.
-5. Restart your Ghost server. The process for this will change dependent on your provider. If you are unaware how to restart the service please raise a support issue with your host.
-6. Login to your Ghost admin panel. This can be found at **yourdomain.com/ghost**.
-7. Navigate to the **Settings > General** tab.
-8. In the **Theme** drop down, select the newly installed Maxima Theme. Click **Save** to save the theme changes.
-
-Here is another guide that you may find useful.
-
-* [How to Upload and Install a Ghost Theme](https://www.ghostforbeginners.com/how-to-upload-a-theme/)
-
----
-
-### Upload to Ghost.io
-
-1. Visit [Ghost.org](https://ghost.org/) and log in entering your login credentials.
-2. From your Ghost(Pro) dashboard, select the **Settings** (“gear”) icon to the _right_ of the “Write a Post” button.
-3. In your blog’s control panel, you can either "drag & drop" **maxima** theme zip file into the **“Add a Theme”** drop zone, or click on the drag & drop zone to launch the traditional file upload prompt.
-4. Upload the theme, and once uploaded, click on the **Save All Blog Settings** button. Your blog will automatically update with the new theme.
+* Log into the admin section of your Ghost blog `yourblog.com/ghost`.
+* Select `General` from the left hand side of your admin area and scroll to the bottom **Themes** section.
+* Click on the `Upload a Theme` green button.
+* An upload box will open, then choose the theme (*maxima.zip*) within the downloaded package.
+* Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
 
 ---
 
