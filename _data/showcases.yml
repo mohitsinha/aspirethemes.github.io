@@ -87,3 +87,9 @@
   theme:      Aspire
   type:       Ghost
   screenshot: theguardant.png
+
+- title:      DigitalFyre
+  url:        https://digitalfyre.blog/
+  theme:      Maxima
+  type:       Ghost
+  screenshot: digitalfyre.png
