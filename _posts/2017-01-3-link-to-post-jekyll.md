@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Create a link to a post in Markdown in Jekyll
+tags: [jekyll, markdown]
 thumbnail: '/images/posts/jekyll-links/jekyll.png'
 ---
 

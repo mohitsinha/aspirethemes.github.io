@@ -3,7 +3,14 @@ layout: default
 ---
 
 <div class='o-grid'>
-  {% for post in site.posts %}
+  <div class='o-grid__col o-grid__col--4-4'>
+    <h4>Tag: {{ page.tag }}</h4>
+    <hr>
+  </div>
+</div>
+
+<div class='o-grid'>
+  {% for post in page.posts %}
     {% include post-card.html %}
   {% endfor %}
 </div>

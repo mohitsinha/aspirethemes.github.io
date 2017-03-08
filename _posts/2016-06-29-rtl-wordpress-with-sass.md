@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Add RTL Support to WordPress Theme with Sass and Gulp
+tags: [RTL, Gulp, Sass, CSS, WordPress]
 thumbnail: '/images/posts/wordpress-rtl-with-gulp/thumbnail.png'
 ---
 
