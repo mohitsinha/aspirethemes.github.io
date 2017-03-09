@@ -1,8 +1,8 @@
-- title:      AfterShip
-  url:        https://blog.aftership.com/
-  theme:      Aspire
+- title:      DigitalFyre
+  url:        https://digitalfyre.blog/
+  theme:      Maxima
   type:       Ghost
-  screenshot: aftership.png
+  screenshot: digitalfyre.png
 
 - title:      Noah Bershatsky
   url:        https://bershatsky.com/
@@ -15,6 +15,18 @@
   theme:      magaz
   type:       Ghost
   screenshot: autismladder.png
+
+- title:      AfterShip
+  url:        https://blog.aftership.com/
+  theme:      Aspire
+  type:       Ghost
+  screenshot: aftership.png
+
+- title:      Bershatsky Photo
+  url:        https://bershatsky.net/
+  theme:      Real
+  type:       Ghost
+  screenshot: bershatsky.png
 
 - title:      CONSCIOUS VEGAN
   url:        http://consciousvegan.co.uk/
@@ -87,9 +99,3 @@
   theme:      Aspire
   type:       Ghost
   screenshot: theguardant.png
-
-- title:      DigitalFyre
-  url:        https://digitalfyre.blog/
-  theme:      Maxima
-  type:       Ghost
-  screenshot: digitalfyre.png
