@@ -13,7 +13,7 @@ layout: default
 
         <div class='o-grid'>
           <div class='o-grid__col o-grid__col--2-4'>
-            <a class='c-btn c-btn--primary c-btn--full' href='{{ page.purchase }}' target='_blank'>
+            <a class='c-btn c-btn--primary c-btn--full' href='{{ page.purchase }}' onclick="trackOutboundLink('{{ page.purchase }}'); return false;">
               {% if page.price %}
                 Buy Theme ${{ page.price }}
               {% else %}
