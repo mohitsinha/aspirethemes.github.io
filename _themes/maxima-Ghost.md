@@ -10,7 +10,7 @@ type:         ghost
 body-class:   is-theme
 demo:         http://maxima.aspirethemes.com/
 docs:         /docs/maxima-ghost
-purchase:     https://themeforest.net/item/maxima-minimal-blog-magazine-ghost-theme/19143684
+purchase:     https://themeforest.net/item/maxima-minimal-blog-magazine-ghost-theme/19143684?ref=aspirethemes
 description:  The Simplest, Fastest Ghost Theme Ever
 features:
   - Clean Design

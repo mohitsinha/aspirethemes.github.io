@@ -10,7 +10,7 @@ type:         jekyll
 body-class:   is-theme
 demo:         http://maxima-jekyll.aspirethemes.com/
 docs:         /docs/maxima-jekyll
-purchase:     https://themeforest.net/item/maxima-minimal-blog-magazine-ghost-theme/19164859
+purchase:     https://themeforest.net/item/maxima-minimal-blog-magazine-ghost-theme/19164859?ref=aspirethemes
 description:  Maxima is a clean, minimal, modern theme that focus on content for Jekyll.
 features:
   - Clean Design
