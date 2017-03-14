@@ -1,14 +1,20 @@
-- title:      DigitalFyre
-  url:        https://digitalfyre.blog/
-  theme:      Maxima
-  type:       Ghost
-  screenshot: digitalfyre.png
+- title:      CountingCatbirds
+  url:        http://www.countingcatbirds.nl/
+  theme:      real
+  type:       WordPress
+  screenshot: countingcatbirds.png
 
 - title:      Noah Bershatsky
   url:        https://bershatsky.com/
   theme:      maxima
   type:       Ghost
   screenshot: bershatsky.png
+
+- title:      DigitalFyre
+  url:        https://digitalfyre.blog/
+  theme:      Maxima
+  type:       Ghost
+  screenshot: digitalfyre.png
 
 - title:      Autism Ladder
   url:        http://www.autismladder.com/
