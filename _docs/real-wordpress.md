@@ -7,8 +7,8 @@ platform: WordPress
 
 * Name: Real
 * Description: Blog and Magazine Clean WordPress Theme
-* Current Version: 1.0.5
-* Released: 12 Feb 2017
+* Current Version: 1.0.6
+* Released: 15 March 2017
 
 ---
 
