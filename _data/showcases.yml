@@ -111,3 +111,9 @@
   theme:      Aspire
   type:       Ghost
   screenshot: theguardant.png
+
+- title:      oncalled
+  url:        https://oncalled.com/blog/
+  theme:      magaz
+  type:       Ghost
+  screenshot: oncalled.png
