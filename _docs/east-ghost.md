@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: East
 * Description: Blog and Multipurpose Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.7
-* Released: 20 Feb 2017
+* Current Version: 1.1.8
+* Released: 19 March 2017
 
 ---
 
