@@ -10,13 +10,13 @@ $grid-gutter-small: half($base-spacing-unit);
   display: -webkit-flex;
           display: flex;
 
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+
   max-width: $grid-width;
   margin: 0 auto;
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
-
-  -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
 
   @include clearfix();
 
@@ -28,31 +28,25 @@ $grid-gutter-small: half($base-spacing-unit);
 }
 
 .o-grid__col {
+  width: 100%;
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
 
-  -webkit-flex-basis: 100%;
-          flex-basis: 100%;
-
   @include mq($from: tablet) {
     &--1-4 {
-      -webkit-flex-basis: percentage(1 / 4);
-              flex-basis: percentage(1 / 4);
+      width: percentage(1 / 4);
     } // 25%
 
     &--1-3 {
-      -webkit-flex-basis: percentage(1 / 3);
-              flex-basis: percentage(1 / 3);
+       width: percentage(1 / 3);
     } // 33.33333%;
 
     &--2-4 {
-      -webkit-flex-basis: percentage(2 / 4);
-              flex-basis: percentage(2 / 4);
+      width: percentage(2 / 4);
     } // 50%
 
     &--3-4 {
-      -webkit-flex-basis: percentage(3 / 4);
-              flex-basis: percentage(3 / 4);
+      width: percentage(3 / 4);
     } // 75%;
   }
 
