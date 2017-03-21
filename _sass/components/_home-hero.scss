@@ -4,7 +4,6 @@
 
 .c-home-hero {
   padding: quadruple($base-spacing-unit) 0;
-
   text-align: center;
   background-color: $bg-color-gray;
 
@@ -18,8 +17,6 @@
 
   &__tagline {
     margin-bottom: 0;
-
-    font-family: $font-serif;
     font-size: $font-size-base;
     font-weight: $font-weight-light;
 
