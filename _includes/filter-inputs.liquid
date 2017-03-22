@@ -1,0 +1,3 @@
+{% for theme_type in site.data.theme_types %}
+  <input type='radio' class='c-filter__input c-filter__input--{{ theme_type.type | downcase }}' id='{{ theme_type.type | downcase }}' name='theme'>
+{% endfor %}

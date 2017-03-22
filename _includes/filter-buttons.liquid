@@ -1,0 +1,9 @@
+<div class='o-grid'>
+  <div class='o-grid__col'>
+    <div class='c-filter'>
+      {% for theme_type in site.data.theme_types %}
+        <label class='c-filter__btn c-btn c-btn--secondary c-btn--small {{ include.button-custom-class }}' for='{{ theme_type.type | downcase }}'>{{ theme_type.type }}</label>
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,7 +1,7 @@
-<div class='o-grid__col o-grid__col--2-4'>
+<div class='o-grid__col o-grid__col--2-4 {{ showcase.type | downcase }}'>
   <div class='c-showcase-card'>
     <a href='{{ showcase.url }}' target='_blank'>
-      <div class='js-fadein c-showcase-card__image' style='background-image: url(/images/showcases/{{ showcase.type }}/{{ showcase.theme }}/{{ showcase.screenshot }})'></div>
+      <div class='js-fadein c-showcase-card__image' style='background-image: url(/images/showcases/{{ showcase.type | downcase }}/{{ showcase.theme }}/{{ showcase.screenshot }})'></div>
     </a>
 
     <a class='c-showcase-card__title' href='{{ showcase.url }}' target='_blank'>{{ showcase.title }}</a>

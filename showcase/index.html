@@ -1,19 +1,23 @@
 ---
 layout: default
 title: Showcase
-body-class: is-showcase
+body-class: u-bg-color-dark
 excerpt: A Growing Collection of Creative Websites Built with Aspire Themes
 ---
 
 <div class='o-grid'>
   <div class='o-grid__col o-grid__col--4-4'>
     <h4 class='u-color-white'>A Growing Collection of Creative Websites Built with Aspire Themes</h4>
-    <a class='c-btn c-btn--secondary c-btn--border-less' href='{{ site.mailto }}?subject=Submit My Site to Showcase'>Submit Your Site</a>
+    <a class='u-hidden c-btn c-btn--secondary c-btn--border-less' href='{{ site.mailto }}?subject=Submit My Site to Showcase'>Submit Your Site</a>
     <hr>
   </div>
 </div>
 
+{% include filter-buttons.liquid button-custom-class='c-btn--border-less' %}
+
 <div class='o-grid'>
+  {% include filter-inputs.liquid %}
+
   {% for showcase in site.data.showcases %}
     {% include showcase-card.html %}
   {% endfor %}
