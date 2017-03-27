@@ -1,14 +1,15 @@
 ---
 layout: doc
-title: Maxima
+title: Bold
 categories: docs
 platform: Ghost
+status: review
 ---
 
-* Name: Maxima
+* Name: Bold
 * Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.0.6
-* Released: 9 March 2017
+* Current Version: 1.0.0
+* Released: 26 March 2017
 
 ---
 
@@ -123,7 +124,7 @@ To integrate Google Analytics, I would recommend reading [How do I add Google An
 
 Social media links are placed in:
 
-* `partials/footer.hbs`
+* `partials/social-nav.hbs`
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
