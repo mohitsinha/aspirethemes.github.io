@@ -1,14 +1,20 @@
-- title:      OnCalled
-  url:        https://oncalled.com/blog/
-  theme:      magaz
-  type:       Ghost
-  screenshot: oncalled.png
+- title:      Cookienews
+  url:        http://cookienews.org/
+  theme:      maxima
+  type:       WordPress
+  screenshot: cookienews.png
 
 - title:      CountingCatbirds
   url:        http://www.countingcatbirds.nl/
   theme:      real
   type:       WordPress
   screenshot: countingcatbirds.png
+
+- title:      OnCalled
+  url:        https://oncalled.com/blog/
+  theme:      magaz
+  type:       Ghost
+  screenshot: oncalled.png
 
 - title:      Noah Bershatsky
   url:        https://bershatsky.com/
