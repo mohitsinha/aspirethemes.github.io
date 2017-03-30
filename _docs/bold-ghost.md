@@ -16,6 +16,7 @@ status: review
 * [Theme Installation](#theme-installation)
 * [Static Pages](#static-pages)
 * [Navigation](#navigation)
+* [Home Hero](#home-hero)
 * [Search](#search)
 * [Tags Page](#tags-page)
 * [Disqus Comments](#disqus-comments)
@@ -57,6 +58,24 @@ To include a static page on your navigation menu, first, type the name of the pa
 ![label field](/images/docs/ghost/shared/label-field.png)
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
+
+---
+
+### Home Hero
+
+![static page](/images/docs/ghost/bold/home-hero.png)
+
+The hero section shows the cover image and the blog description, which you can edit from the [Blog Settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) admin page.
+
+The theme comes with description support for HTML tags, so you can add normal tags like custom links or headings and the theme will automatically render them on the browser. For example, the demo description is the following:
+
+{% highlight html %}
+<h1>Thoughts, Stories and Ideas.</h1>
+<p>Don't cry because it's over, smile because it happened.
+  <br>
+  - <a href="https://en.wikipedia.org/wiki/Dr._Seuss">Dr. Seuss</a>
+</p>
+{% endhighlight %}
 
 ---
 
@@ -212,9 +231,15 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 ---
 
+Another option is to use the Ghost [Code Injection](https://help.ghost.org/hc/en-us/articles/223403488-Code-Injection) feature. This is great if you don’t want to touch the theme files which is recommended to receive the future theme updates without losing your customizations.
+
+---
+
 ### Support
 
 If you have any questions, I'd be happy to answer them. Please don't hesitate to contact at:
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
+
+---
