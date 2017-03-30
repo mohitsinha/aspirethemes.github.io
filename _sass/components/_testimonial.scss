@@ -4,13 +4,14 @@
 
 .c-testimonial {
   position: relative;
-  height: -webkit-calc(100% - #{double($base-spacing-unit)});
-  height:         calc(100% - #{double($base-spacing-unit)});
   padding: double($base-spacing-unit);
   margin-bottom: double($base-spacing-unit);
-
   border: 1px solid $color-border;
   background-color: $bg-color-gray;
+
+  &-wrap {
+    display: flex;
+  }
 
   &:before,
   &:after {
