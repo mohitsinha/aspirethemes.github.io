@@ -70,7 +70,7 @@ The hero section shows the cover image and the blog description, which you can e
 The theme comes with description support for HTML tags, so you can add normal tags like custom links or headings and the theme will automatically render them on the browser. For example, the demo description is the following:
 
 {% highlight html %}
-<h1>Thoughts, Stories and Ideas.</h1>
+<h2>Thoughts, Stories and Ideas.</h2>
 <p>Don't cry because it's over, smile because it happened.
   <br>
   - <a href="https://en.wikipedia.org/wiki/Dr._Seuss">Dr. Seuss</a>
