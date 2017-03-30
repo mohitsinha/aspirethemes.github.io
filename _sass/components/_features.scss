@@ -4,12 +4,13 @@
 
 .c-feature {
   position: relative;
-  height: -webkit-calc(100% - #{double($base-spacing-unit)});
-  height:         calc(100% - #{double($base-spacing-unit)});
   padding: double($base-spacing-unit);
   margin-bottom: double($base-spacing-unit);
-
   border: 1px solid $color-border;
+
+  &-wrap {
+    display: flex;
+  }
 
   &__icon {
     display: block;
