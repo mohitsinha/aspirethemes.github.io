@@ -10,11 +10,11 @@
   type:       WordPress
   screenshot: countingcatbirds.png
 
-- title:      OnCalled
-  url:        https://oncalled.com/blog/
-  theme:      magaz
+- title:      The Guardant
+  url:        http://www.theguardant.com/
+  theme:      Aspire
   type:       Ghost
-  screenshot: oncalled.png
+  screenshot: theguardant.png
 
 - title:      Noah Bershatsky
   url:        https://bershatsky.com/
@@ -27,6 +27,12 @@
   theme:      Maxima
   type:       Ghost
   screenshot: digitalfyre.png
+
+- title:      OnCalled
+  url:        https://oncalled.com/blog/
+  theme:      magaz
+  type:       Ghost
+  screenshot: oncalled.png
 
 - title:      Autism Ladder
   url:        http://www.autismladder.com/
@@ -117,9 +123,3 @@
   theme:      midan
   type:       Ghost
   screenshot: agentof.png
-
-- title:      The Guardant
-  url:        http://www.theguardant.com/
-  theme:      Aspire
-  type:       Ghost
-  screenshot: theguardant.png
