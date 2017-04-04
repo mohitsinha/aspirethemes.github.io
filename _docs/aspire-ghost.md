@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: Aspire
 * Description: Clean News & Magazine Ghost Theme [Ghost](https://ghost.org/) theme
-* Current Version: 1.3.5
-* Released: 24 Feb 2017
+* Current Version: 1.3.6
+* Released: 4 April 2017
 
 ---
 
