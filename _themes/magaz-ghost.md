@@ -1,7 +1,7 @@
 ---
 layout:       theme
-name:         Magaz - Ghost
-title:        Magaz
+name:         Magaz
+title:        Magaz - Magazine and Multipurpose Clean Ghost Theme
 date:         2016-2-23
 thumbnail:    images/themes/ghost/magaz/preview.png
 price:        29

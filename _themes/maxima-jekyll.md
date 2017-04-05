@@ -1,7 +1,7 @@
 ---
 layout:       theme
-name:         Maxima - Jekyll
-title:        Maxima
+name:         Maxima
+title:        Maxima - Minimal Blog and Magazine Jekyll Theme
 date:         2016-9-25
 thumbnail:    images/themes/jekyll/maxima/preview.png
 price:        29

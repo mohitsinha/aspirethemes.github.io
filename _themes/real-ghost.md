@@ -1,7 +1,7 @@
 ---
 layout:       theme
-name:         Real – Ghost
-title:        Real
+name:         Real
+title:        Real - Blog and Magazine Clean Ghost Theme
 date:         2016-5-23
 thumbnail:    images/themes/ghost/real/preview.png
 price:        29

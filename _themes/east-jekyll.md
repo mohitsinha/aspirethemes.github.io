@@ -1,7 +1,7 @@
 ---
 layout:       theme
-name:         East - Jekyll
-title:        East
+name:         East
+title:        East - Minimal and Clean Jekyll Blog Theme
 date:         2016-8-25
 thumbnail:    images/themes/jekyll/east/preview.png
 price:        29

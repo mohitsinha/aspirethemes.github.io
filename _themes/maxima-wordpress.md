@@ -1,7 +1,7 @@
 ---
 layout:       theme
-name:         Maxima – WordPress
-title:        Maxima
+name:         Maxima
+title:        Maxima - Minimal Blog & Magazine WordPress Theme
 date:         2017-1-14
 thumbnail:    images/themes/wordpress/maxima/preview.png
 price:        49
