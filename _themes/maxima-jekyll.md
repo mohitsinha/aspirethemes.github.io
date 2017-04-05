@@ -4,7 +4,7 @@ name:         Maxima - Jekyll
 title:        Maxima
 date:         2016-9-25
 thumbnail:    images/themes/jekyll/maxima/preview.png
-price:        39
+price:        29
 categories:   themes
 type:         jekyll
 body-class:   is-theme
