@@ -1,15 +1,3 @@
-- title:      Cookienews
-  url:        http://cookienews.org/
-  theme:      maxima
-  type:       WordPress
-  screenshot: cookienews.png
-
-- title:      CountingCatbirds
-  url:        http://www.countingcatbirds.nl/
-  theme:      real
-  type:       WordPress
-  screenshot: countingcatbirds.png
-
 - title:      The Guardant
   url:        http://www.theguardant.com/
   theme:      Aspire
@@ -21,6 +9,18 @@
   theme:      maxima
   type:       Ghost
   screenshot: bershatsky.png
+
+- title:      Cookienews
+  url:        http://cookienews.org/
+  theme:      maxima
+  type:       WordPress
+  screenshot: cookienews.png
+
+- title:      CountingCatbirds
+  url:        http://www.countingcatbirds.nl/
+  theme:      real
+  type:       WordPress
+  screenshot: countingcatbirds.png
 
 - title:      DigitalFyre
   url:        https://digitalfyre.blog/
