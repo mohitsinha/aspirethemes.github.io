@@ -3,13 +3,12 @@ layout: doc
 title: Bold
 categories: docs
 platform: Ghost
-status: review
 ---
 
 * Name: Bold
 * Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
 * Current Version: 1.0.0
-* Released: 26 March 2017
+* Released: 8 April 2017
 
 ---
 
