@@ -18,7 +18,7 @@ I care so much about design, little details, clean interfaces that are functiona
     <p><img src='/images/assets/ahmadajmi.jpg' class='no-frame' alt='Ahmad Ajmi Photo'></p>
   </div>
   <div class='o-grid__col o-grid__col--3-4' markdown='1'>
-[Ahmad Ajmi](http://ahmadajmi.com/), a front-end web developer from Egypt.
+My name is Ahmad Ajmi, a web developer based in Cairo, Egypt.
 
 Founded the Arabic blogging platform [oktob.io](https://oktob.io/) in 2015 which acquired by [Toriom](http://toriom.com/) in 2017.
 
