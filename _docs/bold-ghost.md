@@ -33,7 +33,7 @@ platform: Ghost
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
 * Select `General` from the left hand side of your admin area and scroll to the bottom **Themes** section.
 * Click on the `Upload a Theme` green button.
-* An upload box will open, then choose the theme (*maxima.zip*) within the downloaded package.
+* An upload box will open, then choose the theme (*bold.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
 
 ---
