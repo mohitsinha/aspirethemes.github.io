@@ -1,14 +1,15 @@
 ---
 layout: doc
-title: Maxima
+title: Bold
+status: review
 categories: docs
 platform: WordPress
 ---
 
-* Name: **Maxima**
-* Description: Minimal Blog & Magazine WordPress Theme
-* Current Version: 1.0.8
-* Released: 5 April 2017
+* Name: **Bold**
+* Description: Blog and Magazine Clean WordPress Theme
+* Current Version: 1.0.0
+* Released: 30 April 2017
 
 ---
 
@@ -17,6 +18,7 @@ platform: WordPress
   * [Installation via FTP](#installation-via-ftp)
   * [Import Demo Data](#import-demo-data)
 * [Theme Customizer](#theme-customizer)
+* [Home Hero](#home-hero)
 * [Widgets](#widgets)
 * [Menus](#menus)
 * [Translation](#translation)
@@ -39,7 +41,7 @@ Log into your WordPress Dashboard → Appearance → Themes
 
 - Login to your WordPress Dashboard, go to **Appearance → Themes**.
 - At the top, click **Add New**, then click **Upload Theme**.
-- Choose the **maxima.zip** zip file you will find within the whole package that you downloaded from Themforest.
+- Choose the **bold.zip** zip file you will find within the whole package that you downloaded from Themforest.
 - Click **Install Now**.
 - The last step is to click activate once all the files are correctly uploaded.
 
@@ -55,7 +57,7 @@ Log into your WordPress Dashboard → Appearance → Themes
 
 1. Login to the SFTP/FTP account for your site.
 2. Navigate the to the WordPress directory, and follow the path `wp-content/themes.`
-3. Extract `maxima.zip` file (it’s in the zip file you downloaded) and upload the maxima folder.
+3. Extract `bold.zip` file (it’s in the zip file you downloaded) and upload the bold folder.
 4. Once it’s uploaded, go to your WordPress Admin, browse to `Appearance > Themes.`
 5. Click the `Activate` link.
 
@@ -77,33 +79,47 @@ Second, go to `Appearance > Import Demo Data` and only click the `Import Demo Da
 
 WordPress customizer is a tool which allows you to edit all the style options from a theme and visualize changes live, as you edit them. To open it, go to `Appearance > Customize`.
 
-![Theme Customizer](/images/docs/wordpress/maxima/customizer.png)
+![Theme Customizer](/images/docs/wordpress/bold/customizer.png)
 
 #### Footer Copyright
 
-Maxima has an option to edit the footer copy right options, from the customizer window, choose `Site Identity > Footer Copyright` to easily update the copyright text.
+Bold has an option to edit the footer copy right options, from the customizer window, choose `Site Identity > Footer Copyright` to easily update the copyright text.
+
+---
+
+### Home Hero
+
+![home-hero](/images/docs/wordpress/bold/home-hero.png)
+
+The hero section shows the blog *Tagline* and the *Header Image*.
+
+To set the *Tagline*, go to `Appearance > Customize` then `Site Identity`.
+
+To set the *Header Image*, go to `Appearance > Customize` then `Header Image`.
+
+If the *Header Image* is not exist, the hero section will be hidden, but you can show only the *Header Image* without the *Tagline*.
 
 ---
 
 ### Widgets
 
-Maxima theme includes multiple widgets areas.
+Bold theme includes multiple widgets areas.
 
 Widgets can be added to these areas by navigating to `Appearance > Widgets`.
 
 The footer section has four registered widget sections and the Sidebar (Off canvas) area has widgets support
 
-![Widgets](/images/docs/wordpress/maxima/widgets.png)
+![Widgets](/images/docs/wordpress/bold/widgets.png)
 
 ---
 
 ### Menus
 
-Maxima theme comes with a custom social media icons menu, you can create and manage by navigating to `Appearance > Menus`.
+Bold theme comes with a custom social media icons menu, you can create and manage by navigating to `Appearance > Menus`.
 
-You can create a normal menu with a custom link to the social media site, then you can assign the menu to the `Social Icons (Footer)` location in the Menu Settings section.
+You can create a normal menu with a custom link to the social media site, then you can assign the menu to the `Social Menu` location in the Menu Settings section.
 
-![social-media-menu](/images/docs/wordpress/maxima/social-menu.png)
+![social-media-menu](/images/docs/wordpress/bold/social-media-menu.png)
 
 Bold is using [Social Logos](https://github.com/Automattic/social-logos). You can look this [gallery](https://wpcalypso.wordpress.com/devdocs/design/social-logos) for all the available icons.
 
@@ -111,17 +127,17 @@ Bold is using [Social Logos](https://github.com/Automattic/social-logos). You ca
 
 ### Translation
 
-Maxima theme is full ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
+Bold theme is full ready to be translated into other languages and could be easily translated with [poedit.net](https://poedit.net/) application.
 
-The theme contains the main translation file `maxima.pot` inside the languages directory which will be used by poedit application.
+The theme contains the main translation file `bold.pot` inside the languages directory which will be used by poedit application.
 
 Here are simple steps:
 
 1. Install poedit and open it.
 2. Once the app is opened click Create new translation.
-3. Choose the `maxima.pot` file inside the theme `maxima/language` directory.
+3. Choose the `bold.pot` file inside the theme `bold/language` directory.
 4. Once the translation is done, save the file according to your language code. Find a list of language codes at [WordPress in your Language](https://make.wordpress.org/polyglots/teams/). As an example, the language code for English (UK) is en_GB, so you will end up with two new files: en_GB.po and then en_GB.mo.
-5. When that’s done, simply upload the files to `maxima/language` folder using FTP.
+5. When that’s done, simply upload the files to `bold/language` folder using FTP.
 
 ---
 

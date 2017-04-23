@@ -27,15 +27,15 @@ platform: WordPress
 
 Login to your WordPress website, go to **Appearance/Themes**, click **Add New**, then click **Upload Theme**.
 
-![Upload Theme](/images/docs/wordpress/magaz/upload-theme.png)
+![Upload Theme](/images/docs/wordpress/shared/upload-theme.png)
 
 Upload **aspire.zip** file (it’s in the zip file you downloaded), then click **Install Now**
 
-![Choose Theme](/images/docs/wordpress/magaz/choose-theme-file.png)
+![Choose Theme](/images/docs/wordpress/shared/choose-theme-file.png)
 
 Then click **Activate** to activate the Magaz theme.
 
-![Activate Theme](/images/docs/wordpress/magaz/activate-theme.png)
+![Activate Theme](/images/docs/wordpress/shared/activate-theme.png)
 
 ### Installation via FTP
 
@@ -195,7 +195,7 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 ### Support
 
-If you have any questions, I'd be happy to answer them.
+If you have any questions, I'd be happy to help.
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)

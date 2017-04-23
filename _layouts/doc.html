@@ -5,20 +5,22 @@ layout: default
 <div class='o-grid'>
   <div class='o-grid__col o-grid__col--3-4 o-grid__col--center'>
 
-    <div class='c-content'>
-      <h2 class='c-content__title'>
-        {{ page.title }}
+    <div class='c-post'>
+      <div class='c-content'>
+        <h2 class='c-content__title'>
+          {{ page.title }}
 
-        {% unless page.status %}
-          <a href='{{ site.baseurl }}/themes/{{ page.title | downcase }}-{{ page.platform | downcase }}' target='_blank'>
-            <span data-icon='ei-external-link' data-size='s' title='Visit Theme Page'></span>
-          </a>
-        {% endunless %}
-      </h2>
+          {% unless page.status %}
+            <a href='{{ site.baseurl }}/themes/{{ page.title | downcase }}-{{ page.platform | downcase }}' target='_blank'>
+              <span data-icon='ei-external-link' data-size='s' title='Visit Theme Page'></span>
+            </a>
+          {% endunless %}
+        </h2>
 
-      <hr>
+        <hr>
 
-      {{ content }}
+        {{ content }}
+      </div>
     </div>
 
   </div>

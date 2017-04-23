@@ -237,7 +237,7 @@ Another option is to use the Ghost [Code Injection](https://help.ghost.org/hc/en
 
 ### Support
 
-If you have any questions, I'd be happy to answer them. Please don't hesitate to contact at:
+If you have any questions, I'd be happy to help.
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
