@@ -3,16 +3,27 @@
 \*------------------------------------*/
 
 .c-content {
-  &--post {
-    margin: 0 auto;
-    max-width: 700px;
-  }
-
   a:not(.c-btn) {
-    text-decoration: underline;
+    text-shadow: 0.04545em  0           0 $color-white,
+                 0.09091em  0           0 $color-white,
+                 0.13636em  0           0 $color-white,
+                 -0.04545em 0           0 $color-white,
+                 -0.09091em 0           0 $color-white,
+                 -0.13636em 0           0 $color-white,
+                 0          0.04545em   0 $color-white,
+                 0          0.09091em   0 $color-white,
+                 0          -0.04545em  0 $color-white,
+                 0          -0.09091em  0 $color-white;
+
+    text-decoration: none;
+    background-size: 1px 1px;
+    background-position: 0 97%;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to bottom, $color-text, $color-text);
 
     @include attention() {
       color: $color-brand;
+      background-image: linear-gradient(to bottom, $color-brand, $color-brand);
     }
   }
 

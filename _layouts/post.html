@@ -5,16 +5,19 @@ layout: default
 <div class='o-grid'>
   <div class='o-grid__col o-grid__col--3-4 o-grid__col--center'>
 
-    <div class='c-content c-content--post'>
-      <h2 class='c-content__title'>{{ page.title }}</h2>
+    <div class='c-post'>
+      <div class='c-content'>
+        <h2 class='c-content__title'>{{ page.title }}</h2>
 
-      <time datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'><small>{{ page.date | date: '%b %-d, %Y' }}</small></time>
+        <time datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'><small>{{ page.date | date: '%b %-d, %Y' }}</small></time>
 
-      <hr>
+        <hr>
 
-      {{ content }}
+        {{ content }}
 
-      <hr>
+        <hr>
+
+      </div>
 
       <div class='o-grid'>
         <div class='o-grid__col o-grid__col--3-4'>
@@ -32,7 +35,7 @@ layout: default
       <hr>
 
       {% include comments.html %}
-
     </div>
+
   </div>
 </div>
