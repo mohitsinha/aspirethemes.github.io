@@ -134,7 +134,7 @@ The point here is to see if you are doing some repetitive tasks regularly and th
 
 ### Costs
 
-When it comes to costs, you can start this business with a very low cost. For me, I only pay a monthly fee of **10$** for hosting themes demos on [DigitalOcean](http://bit.ly/aspire-digitalocean). When I started, I purchased the [aspirethemes.com](https://aspirethemes.com/) domain for about **10$ **and by using Jekyll to** **build the site, I use** **[Github Pages](https://pages.github.com/) for free, and other service, I use the free version which is totally enough.
+When it comes to costs, you can start this business with a very low cost. For me, I only pay a monthly fee of **10$** for hosting themes demos on [DigitalOcean](http://bit.ly/aspire-digitalocean). When I started, I purchased the [aspirethemes.com](https://aspirethemes.com/) domain for about 10$ and by using Jekyll to** build the site, I use [Github Pages (https://pages.github.com/) for free.
 
 ### Fail
 
