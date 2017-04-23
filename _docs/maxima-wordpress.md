@@ -65,9 +65,9 @@ Log into your WordPress Dashboard → Appearance → Themes
 
 The theme comes with the demo content that you can import with one click button.
 
-First, you will need to install the [One Click Demo Import](https://wordpress.org/plugins/one-click-demo-import/) then activate it.
+First, you will need to install the [One Click Demo Import](https://wordpress.org/plugins/one-click-demo-import/) plugin then activate it.
 
-Second, go to `Appearance > Import Demo Data` and only click the `Import Demo Data` button, and It will take a few seconds then you are done and have demo content.
+Second, go to `Appearance > Import Demo Data` and click the `Import Demo Data` button. It will take a few seconds, then you are done and have the demo content installed.
 
 ![Import Demo Data](/images/docs/wordpress/shared/demo-import.png)
 
