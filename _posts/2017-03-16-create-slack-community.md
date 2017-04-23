@@ -30,14 +30,20 @@ Next, from the command line, use the following [command](https://github.com/rauc
 now -e SLACK_API_TOKEN="<token>" -e SLACK_SUBDOMAIN="<team-name>" now-examples/slackin
 {% endhighlight %}
 
+<figure markdown='1'>
 ![Deploy to ZEIT](https://cdn-images-1.medium.com/max/1000/1*Jdu14gnFx5vvGGOO6FrTyQ.png)
+</figure>
 
 That’s all you need to do, and once the app is deployed, a new URL ([example](https://now-examples-slackin-hzqfnemqkc.now.sh/)) for the landing page will be created and ready to share.
 
 1. **Landing Page** (***[Demo](http://now-examples-slackin-hzqfnemqkc.now.sh/)***)
 
+<figure markdown='1'>
 ![Slakin Landing Page](/images/posts/slack/slakin-landing-page.png)
-<span class="figcaption_hack">Image [Credit](https://www.producthunt.com/posts/slackin-2#comment-87632)</span>
+<figcaption markdown='1'>
+Image [Credit](https://www.producthunt.com/posts/slackin-2#comment-87632)
+</figcaption>
+</figure>
 
 2. **Badge** (***[Demo](http://now-examples-slackin-hzqfnemqkc.now.sh/badge.svg)***)
 
@@ -45,13 +51,19 @@ That’s all you need to do, and once the app is deployed, a new URL ([example](
 
 3. **[Realtime Subscription](https://github.com/rauchg/slackin#realtime-demo)** ***([Demo](https://jsbin.com/xoqoxaleke/edit?output)***)
 
+<figure markdown='1'>
 ![Slakin Badge](/images/posts/slack/slakin-realtime.gif)
-<span class="figcaption_hack">Image [Credit](https://www.producthunt.com/posts/slackin-2#comment-87632)</span>
+<figcaption markdown='1'>
+Image [Credit](https://www.producthunt.com/posts/slackin-2#comment-87632)
+</figcaption>
+</figure>
 
 The landing page URL will be similar to [now-examples-slackin-hzqfnemqkc.now.sh](https://now-examples-slackin-hzqfnemqkc.now.sh/), and of course, customizing this URL to a subdomain would be another great step. I think [ZITE Premium](https://zeit.co/now#pricing) enables custom domain support, for now, I created a Masked URL Redirect Record with [NameCheap](http://bit.ly/aspire-namecheap) and by doing this I can access the landing page from [slack.aspirethemes.com](http://slack.aspirethemes.com/)
 
+<figure markdown='1'>
 ![Masked URL Redirect Record](/images/posts/slack/domain-redirect.png)
-<span class="figcaption_hack">Masked URL Redirect Record</span>
+<figcaption>Masked URL Redirect Record</figcaption>
+</figure>
 
 I hope this will help you create your next Slack Channel, and if there any tips or recommendations you like to share, I would be happy to hear and learn from you.
 

@@ -57,8 +57,10 @@ I started working on the next version till I reached something I think is good e
 
 So, try to get feedback as early as possible, don’t wait months to finish a theme, build something simple and functional with a few features, then get feedback, iterate, treat it like [MVP](http://theleanstartup.com/principles).
 
-![](https://cdn-images-1.medium.com/max/800/1*TsqY3XB-Xr6fVIdnS7Oe6Q.jpeg)
-<span class="figcaption_hack">THE LEAN STARTUP PROCESS — DIAGRAM</span>
+<figure markdown='1'>
+![THE LEAN STARTUP PROCESS](https://cdn-images-1.medium.com/max/800/1*TsqY3XB-Xr6fVIdnS7Oe6Q.jpeg)
+<figcaption>THE LEAN STARTUP PROCESS — DIAGRAM</figcaption>
+</figure>
 
 These days I’m working on a new Ghost theme, I contacted three of my valuable customers who are caring to provide a helpful feedback, plus a very helpful person who suggested to test the theme after I tweeted about that I’m working on a new theme and will be coming soon.
 
