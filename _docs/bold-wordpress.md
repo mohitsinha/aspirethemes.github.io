@@ -19,6 +19,7 @@ platform: WordPress
   * [Import Demo Data](#import-demo-data)
 * [Theme Customizer](#theme-customizer)
 * [Home Hero](#home-hero)
+* [Galleries](#galleries)
 * [Widgets](#widgets)
 * [Menus](#menus)
 * [Translation](#translation)
@@ -98,6 +99,14 @@ To set the *Tagline*, go to `Appearance > Customize` then `Site Identity`.
 To set the *Header Image*, go to `Appearance > Customize` then `Header Image`.
 
 If the *Header Image* is not exist, the hero section will be hidden, but you can show only the *Header Image* without the *Tagline*.
+
+---
+
+### Galleries
+
+The demo is using the [Tiled Galleries](https://jetpack.com/support/tiled-galleries/) which is a Jetpack add-on that enables to display your galleries in different new styles.
+
+First, install [Jetpack](https://wordpress.org/plugins/jetpack/) and then follow this [guide](https://jetpack.com/support/tiled-galleries/) which will introduce you to Tiled Galleries and how to confugure and create new galleries with it.
 
 ---
 
