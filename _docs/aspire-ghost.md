@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: Aspire
 * Description: Clean News & Magazine Ghost Theme [Ghost](https://ghost.org/) theme
-* Current Version: 1.3.6
-* Released: 4 April 2017
+* Current Version: 1.3.7
+* Released: 24 April 2017
 
 ---
 
@@ -99,7 +99,7 @@ To set up the Twitter feed:
 * Select *Embedded Timeline*.
 * You will see a Timeline preview and you can customize it as required.
 * Copy the code by clicking the *Copy Code* button.
-* Open *partials/sidebar/twitter-widget.hbs* file and replace line *5* with the copied code.
+* Open *partials/sidebar/widget-twitter.hbs* file and replace line *5* with the copied code.
 * Save and you are done.
 
 <script src="//fast.wistia.com/embed/medias/yny59lxsto.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:55.31% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_yny59lxsto videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -110,7 +110,7 @@ To set up the Twitter feed:
 
 To generate a new Instagram feed for your account, please visit [Instansive](http://instansive.com/).
 
-Customize the widget based on a username or hashtag, then you will get a code for the widget, open `partials/sidebar/instagram-widget.hbs` file and paste the code. That's it.
+Customize the widget based on a username or hashtag, then you will get a code for the widget, open `partials/sidebar/widget-instagram.hbs` file and paste the code. That's it.
 
 ---
 
@@ -136,10 +136,11 @@ Subscribers can be enabled via a checkbox on the Labs page, in your Ghost admin 
 
 ![enable subscribers](/images/docs/ghost/shared/subscribers-enable.png)
 
-Once you enabled this feature, the form will appear in two places:
+Once you enabled this feature, the form will appear in three places:
 
 * Footer
 * Single post page sidebar widget
+* Single post page after the article
 
 You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/)
 
@@ -151,9 +152,9 @@ Social media links are placed in different places (files):
 
 * `partials/footer.hbs`
 * `partials/header.hbs`
-* `partials/sidebar/social-widget.hbs`
+* `partials/sidebar/widget-social.hbs`
 
-Ghost 0.8.0 supports adding Facebook and Twitter profile urls from the admin panel, go to **Settings > General** and add your URLs, and this will update the Facebook and Twitter URLs in the locations mentioned above, other social media URLs you can add it from the files.
+Ghost 0.8.0 supports adding Facebook and Twitter profile URLs from the admin panel, go to **Settings > General** and add your URLs, and this will update the Facebook and Twitter URLs in the locations mentioned above, other social media URLs you can add it from the files.
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
