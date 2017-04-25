@@ -7,8 +7,8 @@ platform: WordPress
 
 * Name: **Maxima**
 * Description: Minimal Blog & Magazine WordPress Theme
-* Current Version: 1.0.8
-* Released: 5 April 2017
+* Current Version: 1.0.9
+* Released: 24 April 2017
 
 ---
 
@@ -120,7 +120,7 @@ Here are simple steps:
 1. Install poedit and open it.
 2. Once the app is opened click Create new translation.
 3. Choose the `maxima.pot` file inside the theme `maxima/language` directory.
-4. Once the translation is done, save the file according to your language code. Find a list of language codes at [WordPress in your Language](https://make.wordpress.org/polyglots/teams/). As an example, the language code for English (UK) is en_GB, so you will end up with two new files: en_GB.po and then en_GB.mo.
+4. Once the translation is done, save the file according to your language code. Find a list of language codes at [WordPress in your Language](https://make.wordpress.org/polyglots/teams/). As an example, the language code for English (UK) is `en_GB`, so you will end up with two new files: `en_GB.po` and then `en_GB.mo`.
 5. When that’s done, simply upload the files to `maxima/language` folder using FTP.
 6. Change the site language by going to `WordPress > General > Settings` and choose the target language from `Site Language` drop-down menu.
 
