@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: Aspire
 * Description: Clean News & Magazine Ghost Theme [Ghost](https://ghost.org/) theme
-* Current Version: 1.3.7
-* Released: 25 April 2017
+* Current Version: 1.3.8
+* Released: 26 April 2017
 
 ---
 
@@ -99,7 +99,7 @@ To set up the Twitter feed:
 * Select *Embedded Timeline*.
 * You will see a Timeline preview and you can customize it as required.
 * Copy the code by clicking the *Copy Code* button.
-* Open *partials/sidebar/widget-twitter.hbs* file and replace line *5* with the copied code.
+* Open `partials/sidebar/widget-twitter.hbs` file and replace line **4** with the copied code.
 * Save and you are done.
 
 <script src="//fast.wistia.com/embed/medias/yny59lxsto.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:55.31% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_yny59lxsto videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
@@ -110,7 +110,7 @@ To set up the Twitter feed:
 
 To generate a new Instagram feed for your account, please visit [Instansive](http://instansive.com/).
 
-Customize the widget based on a username or hashtag, then you will get a code for the widget, open `partials/sidebar/widget-instagram.hbs` file and paste the code. That's it.
+Customize the widget based on a username or hashtag, then you will get a code for the widget, open `partials/sidebar/widget-instagram.hbs` file and paste the code.
 
 ---
 
