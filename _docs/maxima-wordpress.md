@@ -27,15 +27,13 @@ platform: WordPress
 
 ### Theme Activation & Import Demo Data (Video)
 
-This is a queck video showing how to install the theme and import the demo content. For installation steps, you can check the process below.
+This is a quick video showing how to install the theme and import the demo content. For installation steps, you can check the process below.
 
 <script src="//fast.wistia.com/embed/medias/y78esomvvl.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_y78esomvvl videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 
 ---
 
 ### Installation via WordPress Theme Installer
-
-Log into your WordPress Dashboard → Appearance → Themes
 
 - Login to your WordPress Dashboard, go to **Appearance → Themes**.
 - At the top, click **Add New**, then click **Upload Theme**.
@@ -77,7 +75,9 @@ Second, go to `Appearance > Import Demo Data` and click the `Import Demo Data` b
 
 WordPress customizer is a tool which allows you to edit all the style options from a theme and visualize changes live, as you edit them. To open it, go to `Appearance > Customize`.
 
+<figure markdown='1'>
 ![Theme Customizer](/images/docs/wordpress/maxima/customizer.png)
+</figure>
 
 #### Footer Copyright
 
