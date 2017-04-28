@@ -4,6 +4,7 @@
 
 .c-filter {
   display: flex;
+  overflow-x: auto;
   margin-bottom: double($base-spacing-unit);
 
   &__btn {
