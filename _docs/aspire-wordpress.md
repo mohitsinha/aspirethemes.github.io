@@ -7,8 +7,8 @@ platform: WordPress
 
 * Name: Aspire
 * Description: Clean News & Magazine WordPress theme
-* Current Version: 1.2.5
-* Released: 29 August 2016
+* Current Version: 1.2.7
+* Released: 1 May 2017
 
 ---
 
@@ -91,22 +91,6 @@ The Recent Posts widget will show the latest posts with images.
 To add this widget, drag the Sidebar recent posts widget to the sidebar section, then you can customize the widget title, how many posts to show, and the option to show the posts date or not.
 
 ![recent-posts-widget](/images/docs/wordpress/aspire/recent-posts-widget.png)
-
----
-
-#### Twitter Feed
-
-The Twitter Feed widget will show the latest tweets from your twitter account and a button to your Twitter account.
-
-In order to activate the Twitter widget, we need to do some steps:
-
-* Go to your [Twitter](https://twitter.com/) settings page.
-* Go to "Widgets" on the left side.
-* Create a new widget and customize it to your requirements.
-* When you create a widget, Twitter will show you a box containing source code, from this code you will see a long number like: `678277339646664704`.
-* Just copy and paste it in the Twitter Feed widget as the below screenshot plus your Twitter username
-
-![twitter-widget](/images/docs/wordpress/aspire/twitter-widget.png)
 
 ---
 
