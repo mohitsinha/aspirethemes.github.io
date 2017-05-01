@@ -1,3 +1,9 @@
+- title:      Pixel News
+  url:        https://pixelnews.fr/
+  theme:      Midan
+  type:       Jekyll
+  screenshot: pixelnews.png
+
 - title:      The Guardant
   url:        http://www.theguardant.com/
   theme:      Aspire
