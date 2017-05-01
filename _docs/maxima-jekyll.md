@@ -7,8 +7,8 @@ platform: Jekyll
 
 * Name: Maxima
 * Description: Minimal Blog & Magazine Jekyll Theme
-* Current Version: 1.0.5
-* Released: 6 April 2017
+* Current Version: 1.0.6
+* Released: 1 May 2017
 
 ---
 
@@ -31,6 +31,7 @@ Maxima theme comes with different customizations in the `_config.yml` file:
 
 {% highlight shell %}
 title:              Maxima
+logo:               # Logo image URL
 email:              your-email@domain.com
 description:        Minimal Blog & Magazine Jekyll Theme
 baseurl:            '' # The subpath of your site, e.g. /blog
