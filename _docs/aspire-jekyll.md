@@ -1,14 +1,14 @@
 ---
 layout: doc
-title: Maxima
+title: Aspire
 categories: docs
 platform: Jekyll
 ---
 
-* Name: Maxima
-* Description: Minimal Blog & Magazine Jekyll Theme
-* Current Version: 1.0.6
-* Released: 1 May 2017
+* Name: Aspire
+* Description: Clean News & Magazine Jekyll Theme
+* Current Version: 1.0.0
+* Released: In Review
 
 ---
 
@@ -27,22 +27,22 @@ platform: Jekyll
 
 ### Configurations
 
-Maxima theme comes with different customizations in the `_config.yml` file:
+Aspire theme comes with different customizations in the `_config.yml` file:
 
 {% highlight shell %}
-title:              Maxima
+# Site settings
+title:              Aspire
 logo:               # Logo image URL
-email:              your-email@domain.com
-description:        Minimal Blog & Magazine Jekyll Theme
+description:        Clean News & Magazine Jekyll Theme
 baseurl:            '' # The subpath of your site, e.g. /blog
-url:                'https://maxima-jekyll.aerobatic.io' # The base hostname & protocol for your site
-github_username:    aspirethemes
-twitter_username:   aspirethemes
-instagram_username: aspirethemes
+url:                'http://aspire-jekyll.aspirethemes.com' # The base hostname & protocol for your site
+twitter:            https://twitter.com/aspirethemes
+facebook:           https://www.facebook.com/aspirethemes/
+instagram:          https://www.instagram.com/aspirethemes
 
 markdown:  kramdown
 permalink: pretty
-paginate:  12
+paginate:  9
 sass:
   style: compressed
 
@@ -114,7 +114,7 @@ You can set the author, featured or not, tags, and the post image.
 The `featured` key is to mark the post as a featured post, this will add a simple star icon (☆) to the post card.
 
 <figure markdown='1'>
-![featured-post](/images/docs/jekyll/maxima/featured-post.png)
+![featured-post](/images/docs/jekyll/aspire/featured-post.png)
 </figure>
 
 To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
@@ -151,7 +151,7 @@ The navigation on the sidebar will automatically include all the links to the pa
 
 ### Disqus Comments
 
-Maxima Theme comes with Disqus comments enabled.
+Aspire Theme comes with Disqus comments enabled.
 
 Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
 
@@ -179,6 +179,8 @@ To integrate Google Analytics, open `_includes/analytics.html`, and add your Goo
 
 Social media links are placed in:
 
+* `_includes/social-nav.html`
+* `_includes/sidebar/widget-social.html`
 * `_includes/footer.html`
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. The following is a list of the social media icons to use:
