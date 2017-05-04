@@ -57,12 +57,15 @@
     }
 
     @include mq($from: tablet) {
-      opacity: 0;
       transition: opacity $global-transition ease-in-out;
 
-      &.is-inview { opacity: 1; }
+      &.js-fadein {
+        opacity: 0;
+      }
 
-      @media screen and ( -webkit-min-device-pixel-ratio: 0 ) { opacity: 1; }
+      &.is-inview {
+        opacity: 1;
+      }
     }
   }
 }
