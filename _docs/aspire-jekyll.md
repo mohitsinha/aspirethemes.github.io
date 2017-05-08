@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Aspire
+status: review
 categories: docs
 platform: Jekyll
 ---
@@ -8,7 +9,7 @@ platform: Jekyll
 * Name: Aspire
 * Description: Clean News & Magazine Jekyll Theme
 * Current Version: 1.0.0
-* Released: In Review
+* Released: 8 May 2017
 
 ---
 
