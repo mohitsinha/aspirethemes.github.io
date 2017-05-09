@@ -7,8 +7,8 @@ platform: WordPress
 
 * Name: East
 * Description: Clean and Minimal WordPress Blog Theme
-* Current Version: 1.1.5
-* Released: 9 April 2017
+* Current Version: 1.1.6
+* Released: 9 May 2017
 
 ---
 
