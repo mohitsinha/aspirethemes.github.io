@@ -1,3 +1,9 @@
+- title:      Hello Bhutan
+  url:        http://www.hellobhutan.ch/
+  theme:      Maxima
+  type:       WordPress
+  screenshot: hellobhutan.png
+
 - title:      Pixel News
   url:        https://pixelnews.fr/
   theme:      Midan
