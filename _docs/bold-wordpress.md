@@ -8,8 +8,8 @@ platform: WordPress
 
 * Name: **Bold**
 * Description: Blog and Magazine Clean WordPress Theme
-* Current Version: 1.0.0
-* Released: In Review
+* Current Version: 1.0.1
+* Released: 17 May 2017
 
 ---
 
@@ -20,8 +20,8 @@ platform: WordPress
 * [Theme Customizer](#theme-customizer)
 * [Adding Posts](#adding-posts)
 * [Adding Pages](#adding-pages)
-* [Widgets](#widgets)
-* [Menus](#menus)
+* [Widgets](#widgets-1)
+* [Menus](#menus-1)
 * [Home Hero](#home-hero)
 * [Contact Page](#contact-page)
 * [Galleries](#galleries)
