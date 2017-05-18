@@ -7,8 +7,8 @@ platform: Jekyll
 
 * Name: Maxima
 * Description: Minimal Blog & Magazine Jekyll Theme
-* Current Version: 1.0.6
-* Released: 1 May 2017
+* Current Version: 1.0.7
+* Released: 18 May 2017
 
 ---
 
