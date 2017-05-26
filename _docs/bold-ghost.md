@@ -7,8 +7,8 @@ platform: Ghost
 
 * Name: Bold
 * Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.0.4
-* Released: 15 May 2017
+* Current Version: 1.0.5
+* Released: 26 May 2017
 
 ---
 
