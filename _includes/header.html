@@ -1,4 +1,4 @@
-<header class='c-header'>
+<header class='c-header' role='banner'>
   <div class='o-grid'>
 
     <div class='o-grid__col o-grid__col--1-4'>
@@ -10,15 +10,17 @@
     </label>
 
     <div class='o-grid__col o-grid__col--2-4'>
-      <ul class='o-plain-list c-site-nav c-off-canvas-content'>
-        {% for link in site.data.navigation %}
-          {% assign class = nil %}
-          {% if page.url contains link.link %}
-            {% assign class = ' c-site-nav__link--active' %}
-          {% endif %}
-          <li class='c-site-nav__item'><a class='c-site-nav__link {{ class }}' href='{{ link.link }}'>{{ link.name }}</a></li>
-        {% endfor %}
-      </ul>
+      <nav role='navigation'>
+        <ul class='o-plain-list c-site-nav c-off-canvas-content'>
+          {% for link in site.data.navigation %}
+            {% assign class = nil %}
+            {% if page.url contains link.link %}
+              {% assign class = ' c-site-nav__link--active' %}
+            {% endif %}
+            <li class='c-site-nav__item'><a class='c-site-nav__link {{ class }}' href='{{ link.link }}'>{{ link.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
     </div>
 
     <div class='o-grid__col o-grid__col--1-4'>

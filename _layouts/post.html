@@ -6,7 +6,7 @@ layout: default
   <div class='o-grid__col o-grid__col--3-4 o-grid__col--center'>
 
     <div class='c-post'>
-      <div class='c-content'>
+      <article class='c-content' role='article'>
         <h2 class='c-content__title'>{{ page.title }}</h2>
 
         <time datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'><small>{{ page.date | date: '%b %-d, %Y' }}</small></time>
@@ -17,7 +17,7 @@ layout: default
 
         <hr>
 
-      </div>
+      </article>
 
       <div class='o-grid'>
         <div class='o-grid__col o-grid__col--3-4'>
