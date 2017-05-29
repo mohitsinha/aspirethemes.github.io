@@ -1,0 +1,16 @@
+/*------------------------------------*\
+  Components > Accessibility (a11y)
+\*------------------------------------*/
+
+.c-a11y-skip-to-content {
+  position: absolute;
+  top: - triple($base-spacing-unit);
+  left: half($base-spacing-unit);
+  padding: quarter($base-spacing-unit) $base-spacing-unit;
+  background-color: $color-white;
+
+  &:focus {
+    top: half($base-spacing-unit) + half(quarter($base-spacing-unit));
+    text-decoration: none;
+  }
+}
