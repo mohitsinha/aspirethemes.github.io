@@ -8,6 +8,7 @@
   left: half($base-spacing-unit);
   padding: quarter($base-spacing-unit) $base-spacing-unit;
   background-color: $color-white;
+  transition: none;
 
   &:focus {
     top: half($base-spacing-unit) + half(quarter($base-spacing-unit));
