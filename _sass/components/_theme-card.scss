@@ -53,6 +53,9 @@
     letter-spacing: .05em;
     color: $color-brand;
 
-    sub { bottom: auto; }
+    sub {
+      bottom: auto;
+      font-size: inherit;
+    }
   }
 }
