@@ -5,8 +5,6 @@ tags: [business, themes, tips, themeforest]
 thumbnail: '/images/posts/start-business/cover.png'
 ---
 
-About a year and half ago, I quit my job to start something I like, something I believe in, to start my own business, something I passionate and care about, to wake up every morning to work on something I love and seeing it grow up, to help a lot of people create simple and elegant websites, to start [Aspire Themes](https://aspirethemes.com/?utm_source=medium&utm_medium=articles).
-
 I can remember about 4 years ago, I started to make HTML templates for Themeforest, but unfortunately, I totally failed to pass the quality stage and I was not getting enough feedback from them, just a general sentence saying that my item is not ready yet and the design quality is not unique enough.
 
 Fortunately, I succeed this time I have leaned and done things I have never done before that keeps me learn new stuff every single day and I want to share with you some tips about starting your own business creating themes like WordPress, Ghost, or Jekyll. I think these tips will work with any online business not only for themes.
