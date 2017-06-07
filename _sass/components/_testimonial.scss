@@ -8,6 +8,8 @@
   margin-bottom: double($base-spacing-unit);
   border: 1px solid $color-border;
   background-color: $bg-color-gray;
+  font-size: $font-size-medium;
+  line-height: $line-height-medium;
 
   &-wrap {
     display: flex;

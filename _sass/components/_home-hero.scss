@@ -18,9 +18,9 @@
   &__tagline {
     margin-bottom: 0;
     font-size: $font-size-base;
-    font-weight: $font-weight-light;
 
     @include mq($from: tablet) {
+      letter-spacing: 1px;
       font-size: double($font-size-tiny);
     }
   }
