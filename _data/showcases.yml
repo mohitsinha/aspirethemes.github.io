@@ -22,18 +22,6 @@
   type:       Ghost
   screenshot: bershatsky.png
 
-- title:      Cookienews
-  url:        http://cookienews.org/
-  theme:      maxima
-  type:       WordPress
-  screenshot: cookienews.png
-
-- title:      CountingCatbirds
-  url:        http://www.countingcatbirds.nl/
-  theme:      real
-  type:       WordPress
-  screenshot: countingcatbirds.png
-
 - title:      DigitalFyre
   url:        https://digitalfyre.blog/
   theme:      Maxima
@@ -57,12 +45,6 @@
   theme:      Aspire
   type:       Ghost
   screenshot: aftership.png
-
-- title:      Bershatsky Photo
-  url:        https://bershatsky.net/
-  theme:      Real
-  type:       Ghost
-  screenshot: bershatsky.png
 
 - title:      CONSCIOUS VEGAN
   url:        http://consciousvegan.co.uk/
