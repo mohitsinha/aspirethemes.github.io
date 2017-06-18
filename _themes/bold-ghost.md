@@ -4,7 +4,7 @@ name:         Bold
 title:        Bold - Blog and Magazine Clean Ghost Theme
 date:         2017-4-8
 thumbnail:    images/themes/ghost/bold/preview.png
-price:        39
+price:        49
 categories:   themes
 type:         ghost
 body-class:   is-theme
