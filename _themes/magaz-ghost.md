@@ -4,7 +4,7 @@ name:         Magaz
 title:        Magaz - Magazine and Multipurpose Clean Ghost Theme
 date:         2016-2-23
 thumbnail:    images/themes/ghost/magaz/preview.png
-price:        39
+price:        49
 categories:   themes
 type:         ghost
 body-class:   is-theme

@@ -4,7 +4,7 @@ name:         Aspire
 title:        Aspire - News & Magazine Clean Ghost Theme
 date:         2015-12-24
 thumbnail:    images/themes/ghost/aspire/preview.png
-price:        39
+price:        49
 categories:   themes
 type:         ghost
 body-class:   is-theme
