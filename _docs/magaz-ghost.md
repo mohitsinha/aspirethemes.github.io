@@ -5,10 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-* Name: Magaz
-* Description: Magazine and Multipurpose Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.2.0
-* Released: 4 April 2017
+Current Version: 1.2.0 - 4 April 2017
 
 ---
 

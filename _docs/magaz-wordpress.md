@@ -5,10 +5,7 @@ categories: docs
 platform: WordPress
 ---
 
-* Name: Magaz
-* Description: Magazine/News Minimal WordPress theme
-* Current Version: 1.1.0
-* Released: 2 August 2016
+Current Version: 1.1.3 - 23 June 2017
 
 ---
 

@@ -8,7 +8,7 @@ layout: default
     <div class='c-post'>
       <div class='c-content'>
         <h2 class='c-content__title'>
-          {{ page.title }}
+          {{ page.title }} - {{ page.platform }}
 
           {% unless page.status %}
             <a href='{{ site.baseurl }}/themes/{{ page.title | downcase }}-{{ page.platform | downcase }}' target='_blank'>

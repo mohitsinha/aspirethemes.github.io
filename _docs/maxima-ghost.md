@@ -5,10 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-* Name: Maxima
-* Description: Blog and Magazine Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.1
-* Released: 26 May 2017
+Current Version: 1.1.1 - 26 May 2017
 
 ---
 

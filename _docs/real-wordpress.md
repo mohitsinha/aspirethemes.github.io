@@ -5,10 +5,7 @@ categories: docs
 platform: WordPress
 ---
 
-* Name: Real
-* Description: Blog and Magazine Clean WordPress Theme
-* Current Version: 1.0.7
-* Released: 15 May 2017
+Current Version: 1.0.7 - 15 May 2017
 
 ---
 

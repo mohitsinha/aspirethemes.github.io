@@ -5,10 +5,7 @@ categories: docs
 platform: WordPress
 ---
 
-* Name: Aspire
-* Description: Clean News & Magazine WordPress theme
-* Current Version: 1.2.7
-* Released: 1 May 2017
+Current Version: 1.2.7 - 1 May 2017
 
 ---
 

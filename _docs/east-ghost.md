@@ -5,10 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-* Name: East
-* Description: Blog and Multipurpose Clean [Ghost](https://ghost.org/) Theme
-* Current Version: 1.1.9
-* Released: 4 April 2017
+Current Version: 1.1.9 - 4 April 2017
 
 ---
 

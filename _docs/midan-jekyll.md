@@ -5,10 +5,7 @@ categories: docs
 platform: Jekyll
 ---
 
-* Name: Midan
-* Description: Clean and Fast Jekyll Blog Theme
-* Current Version: 1.1.3
-* Released: 5 Jan 2017
+Current Version: 1.1.3 - 5 Jan 2017
 
 ---
 

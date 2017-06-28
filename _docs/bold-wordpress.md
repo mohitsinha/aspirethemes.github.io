@@ -6,10 +6,7 @@ categories: docs
 platform: WordPress
 ---
 
-* Name: **Bold**
-* Description: Blog and Magazine Clean WordPress Theme
-* Current Version: 1.0.1
-* Released: 17 May 2017
+Current Version: 1.0.1 - 17 May 2017
 
 ---
 
