@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about
-excerpt: Aspire Themes is a place for clean and minimal themes for WordPress and Ghost platforms. I care so much about design, little details, and clean interfaces that are functional and easy to use.
+description: Aspire Themes is a place for clean and minimal themes for WordPress and Ghost platforms. I care so much about design, little details, and clean interfaces that are functional and easy to use.
 ---
 
 I believe that websites should be clean, fast, and accessible to everyone with an internet access whenever they are on whatever device they use.
