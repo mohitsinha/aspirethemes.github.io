@@ -1,3 +1,9 @@
+- title:      The Full Plate
+  url:        https://www.thefullplate.life/
+  theme:      Aspire
+  type:       Ghost
+  screenshot: thefullplate.png
+
 - title:      Hello Bhutan
   url:        http://www.hellobhutan.ch/
   theme:      Maxima
@@ -99,12 +105,6 @@
   theme:      east
   type:       WordPress
   screenshot: mycognition.png
-
-- title:      The Zen School
-  url:        http://www.thezenschool.com/
-  theme:      real
-  type:       WordPress
-  screenshot: thezenschool.png
 
 - title:      Axel Rock
   url:        http://axelrock.fr/
