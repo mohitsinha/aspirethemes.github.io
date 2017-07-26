@@ -4,7 +4,7 @@ name:         East
 title:        East - Minimal and Clean Jekyll Blog Theme
 date:         2016-8-25
 thumbnail:    images/themes/jekyll/east/preview.png
-price:        49
+price:        29
 categories:   themes
 type:         jekyll
 body-class:   is-theme
