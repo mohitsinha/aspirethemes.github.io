@@ -5,7 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.0.6 - 14 July 2017
+Current Version: 1.0.7 - 30 July 2017
 
 ---
 
@@ -17,6 +17,8 @@ Current Version: 1.0.6 - 14 July 2017
 * [Tags Page](#tags-page)
 * [Disqus Comments](#disqus-comments)
 * [Subscribe Form](#subscribe-form)
+* [Posts Per Page](#posts-per-page)
+* [Related Posts](#related-posts)
 * [Google Analytics](#google-analytics)
 * [Social Media Links](#social-media-links)
 * [Update Favicon](#update-favicon)
@@ -28,7 +30,7 @@ Current Version: 1.0.6 - 14 July 2017
 ### Theme Installation
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
-* Select `General` from the left hand side of your admin area and scroll to the bottom **Themes** section.
+* Select `Design` from the left hand side of your admin area and scroll to the bottom **Themes** section.
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*bold.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
@@ -100,10 +102,10 @@ To enable the tags page:
 
 The Theme comes with Disqus comments enabled.
 
-Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
+Open `partials/disqus.hbs` file, and change the `aspirethemes-demos` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
 {% highlight js %}
-var disqus_shortname = "aspirethemes-demo";
+var disqus_shortname = "aspirethemes-demos";
 {% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
@@ -127,6 +129,30 @@ Subscribers can be enabled via a checkbox on the Labs page, in your Ghost admin 
 Once you enabled this feature, the form will appear in the single post page.
 
 You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/)
+
+---
+
+### Posts Per Page
+
+With Ghost 1.0, the ["Posts per page"](https://themes.ghost.org/docs/packagejson#section--config-posts_per_page-) setting is now part of the theme. The config purpose is to control how many posts to show per page from the `package.json` file like this:
+
+```js
+"config": {
+  "posts_per_page": 6
+}
+```
+
+Bold theme default value is set to `6` posts per page.
+
+---
+
+### Related Posts
+
+Related posts will be visible on the single post page when there are similar posts with similar tags, and will be hidden otherwise.
+
+You will need to enable the Public Api from Ghost admin. Go to `Settings > Labs` and check the *Public Api* mark to enable it.
+
+![enable-public-api](/images/docs/ghost/shared/enable-public-api.png)
 
 ---
 

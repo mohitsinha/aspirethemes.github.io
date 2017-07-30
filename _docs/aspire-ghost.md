@@ -5,7 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.4.1 - 14 July 2017
+Current Version: 1.4.2 - 30 July 2017
 
 ---
 
@@ -16,7 +16,8 @@ Current Version: 1.4.1 - 14 July 2017
 * [Disqus Comments](#disqus-comments)
 * [Twitter](#twitter)
 * [Instagram](#instagram)
-* [Related Posts](#relatedposts)
+* [Posts Per Page](#posts-per-page)
+* [Related Posts](#related-posts)
 * [Google Analytics](#google-analytics)
 * [Subscribe Form](#subscribe-form)
 * [Social Media Links](#social-media-links)
@@ -30,7 +31,7 @@ Current Version: 1.4.1 - 14 July 2017
 ### Theme Installation
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
-* Select `General` from the left hand side of your admin area and scroll to the bottom **Themes** section.
+* Select `Design` from the left hand side of your admin area and go to the **Themes** section.
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*aspire.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
@@ -69,10 +70,10 @@ For the search to work properly, please enable the [Public API Beta](http://supp
 
 Aspire Theme comes with Disqus comments enabled.
 
-Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
+Open `partials/disqus.hbs` file, and change the `aspirethemes-demos` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
 {% highlight js %}
-var disqus_shortname = "aspirethemes-demo";
+var disqus_shortname = "aspirethemes-demos";
 {% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
@@ -105,13 +106,44 @@ To set up the Twitter feed:
 
 ### Instagram
 
-To generate a new Instagram feed for your account, please visit [Instansive](http://instansive.com/).
+The Instagram feed is working using [Instafeed.js](http://instafeedjs.com/) to show the photos.
 
-Customize the widget based on a username or hashtag, then you will get a code for the widget, open `partials/sidebar/widget-instagram.hbs` file and paste the code.
+First, you will need to get your account `userId` and `accessToken` from the following URLs:
+
+- userId: [smashballoon.com/instagram-feed/find-instagram-user-id](https://smashballoon.com/instagram-feed/find-instagram-user-id/)
+- accessToken: [instagram.pixelunion.net](http://instagram.pixelunion.net/)
+
+Second, open the `assets/js/instagram.js` file and replace the `userId` and `accessToken` values.
+
+```js
+var instagramFeed = new Instafeed({
+  get: 'user',
+  limit: 9,
+  resolution: 'standard_resolution',
+  userId: '',
+  accessToken: ''
+});
+```
+
+You can control how much images to show by changing the `limit` number. Theme default is set to `9` images.
 
 ---
 
-### RelatedPosts
+### Posts Per Page
+
+With Ghost 1.0, the ["Posts per page"](https://themes.ghost.org/docs/packagejson#section--config-posts_per_page-) setting is now part of the theme. The config purpose is to control how many posts to show per page from the `package.json` file like this:
+
+```js
+"config": {
+  "posts_per_page": 12
+}
+```
+
+Aspire theme default value is set to `12` posts per page.
+
+---
+
+### Related Posts
 
 Related posts will be visible on the single post page when there are similar posts with similar tags, and will be hidden otherwise.
 
@@ -208,14 +240,6 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 {% highlight html %}
 <span data-icon="ei-sc-youtube" data-size="s"></span>
 {% endhighlight %}
-
----
-
-### Update favicon
-
-You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
-
-![Update favicon](/images/docs/ghost/shared/update-favicon.png)
 
 ---
 
