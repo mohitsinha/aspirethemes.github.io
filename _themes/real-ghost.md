@@ -4,7 +4,7 @@ name:         Real
 title:        Real - Blog and Magazine Clean Ghost Theme
 date:         2016-5-23
 thumbnail:    images/themes/ghost/real/preview.png
-price:        49
+price:        39
 categories:   themes
 type:         ghost
 body-class:   is-theme
