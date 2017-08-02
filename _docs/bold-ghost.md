@@ -21,7 +21,6 @@ Current Version: 1.0.7 - 30 July 2017
 * [Related Posts](#related-posts)
 * [Google Analytics](#google-analytics)
 * [Social Media Links](#social-media-links)
-* [Update Favicon](#update-favicon)
 * [Theme Development](#theme-development)
 * [Support](#support)
 
@@ -226,14 +225,6 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 ---
 
-### Update favicon
-
-You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
-
-![Update favicon](/images/docs/ghost/shared/update-favicon.png)
-
----
-
 ### Theme Development
 
 If you are a developer and need to do customization work, the theme is using [Gulp](https://github.com/gulpjs/gulp) to compile [Sass](http://sass-lang.com/) and JavaScript. This improves the development flow and making it much faster.
@@ -264,5 +255,3 @@ If you have any questions, I'd be happy to help.
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
-
----

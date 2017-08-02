@@ -21,7 +21,6 @@ Current Version: 1.4.2 - 30 July 2017
 * [Google Analytics](#google-analytics)
 * [Subscribe Form](#subscribe-form)
 * [Social Media Links](#social-media-links)
-* [Update favicon](#update-favicon)
 * [Copyright Information](#copyright-information)
 * [Theme Development](#theme-development)
 * [Support](#support)
