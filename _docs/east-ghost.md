@@ -5,7 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.1.9 - 4 April 2017
+Current Version: 1.2.0 - 4 August 2017
 
 ---
 
@@ -15,6 +15,7 @@ Current Version: 1.1.9 - 4 April 2017
 * [Search](#search)
 * [Tags Page](#tags-page)
 * [Disqus Comments](#disqus-comments)
+* [Posts Per Page](#posts-per-page)
 * [Subscribe Form](#subscribe-form)
 * [Google Analytics](#google-analytics)
 * [Social Media Links](#social-media-links)
@@ -28,10 +29,11 @@ Current Version: 1.1.9 - 4 April 2017
 ### Theme Installation
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
-* Select `General` from the left hand side of your admin area and scroll to the bottom **Themes** section.
+* Select `Design` from the left hand side of your admin area and go to the **Themes** section.
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*east.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
+
 ---
 
 ### Static Pages
@@ -83,7 +85,7 @@ East Theme comes with Disqus comments enabled.
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
 {% highlight js %}
-var disqus_shortname = "aspirethemes-demo";
+var disqus_shortname = "aspirethemes-demos";
 {% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
@@ -95,6 +97,20 @@ var disqus_shortname = "exampleone";
 That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
 And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
+
+---
+
+### Posts Per Page
+
+With Ghost 1.0, the ["Posts per page"](https://themes.ghost.org/docs/packagejson#section--config-posts_per_page-) setting is now part of the theme. The config purpose is to control how many posts to show per page from the `package.json` file like this:
+
+```js
+"config": {
+  "posts_per_page": 12
+}
+```
+
+East theme default value is set to `12` posts per page.
 
 ---
 
