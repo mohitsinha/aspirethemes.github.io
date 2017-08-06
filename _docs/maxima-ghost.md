@@ -5,7 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.1.2 - 31 July 2017
+Current Version: 1.1.3 - 6 August 2017
 
 ---
 
@@ -80,10 +80,10 @@ To enable the tags page:
 
 The Theme comes with Disqus comments enabled.
 
-Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
+Open `partials/disqus.hbs` file, and change the `aspirethemes-demos` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
 {% highlight js %}
-var disqus_shortname = "aspirethemes-demo";
+var disqus_shortname = "aspirethemes-demos";
 {% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
