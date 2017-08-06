@@ -5,7 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.1.1 - 26 May 2017
+Current Version: 1.1.2 - 31 July 2017
 
 ---
 
@@ -182,6 +182,14 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 ### Update favicon
 
+#### New Ghost 1.0
+
+The favicon in Ghost 1.0 could be changed from the [Blog settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) from the Publication icon section.
+
+![Update favicon](/images/docs/ghost/shared/update-favicon-ghost-1.png)
+
+#### Old Ghost Versions
+
 You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
 
 ![Update favicon](/images/docs/ghost/shared/update-favicon.png)
@@ -205,6 +213,14 @@ gulp
 {% endhighlight %}
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
+
+To create a clean and small theme package, you can exclude different directories using the following command line:
+
+{% highlight shell %}
+zip -r maxima.zip maxima -x *node_modules* *bower_components* *git*
+{% endhighlight %}
+
+This will exclude *node_modules*, *bower_components*, and *git* directories from the final zip file.
 
 ---
 
