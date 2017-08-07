@@ -5,7 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.2.0 - 4 April 2017
+Current Version: 1.2.0 - 7 August 2017
 
 ---
 
@@ -15,10 +15,11 @@ Current Version: 1.2.0 - 4 April 2017
 * [Search](#search)
 * [Disqus Comments](#disqus-comments)
 * [Subscribe Form](#subscribe-form)
+* [Posts Per Page](#posts-per-page)
 * [Google Analytics](#google-analytics)
 * [Related Posts](#relatedposts)
 * [Social Media Links](#social-media-links)
-* [Update favicon](#update-favicon)
+* [Update Favicon](#update-favicon)
 * [Copyright Information](#copyright-information)
 * [Theme Development](#theme-development)
 * [Support](#support)
@@ -97,6 +98,20 @@ Once you enabled this feature, the form will appear in two places:
 * Single post page sidebar widget
 
 You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/)
+
+---
+
+### Posts Per Page
+
+With Ghost 1.0, the ["Posts per page"](https://themes.ghost.org/docs/packagejson#section--config-posts_per_page-) setting is now part of the theme. The config purpose is to control how many posts to show per page from the `package.json` file like this:
+
+```js
+"config": {
+  "posts_per_page": 15
+}
+```
+
+Magaz theme default value is set to `15` posts per page.
 
 ---
 
@@ -184,6 +199,10 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 ---
 
 ### Update favicon
+
+The favicon in Ghost 1.0 could be changed from the [Blog settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) from the Publication icon section.
+
+![Update favicon](/images/docs/ghost/shared/update-favicon-ghost-1.png)
 
 You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
 

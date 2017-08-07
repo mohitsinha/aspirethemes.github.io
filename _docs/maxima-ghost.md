@@ -16,6 +16,7 @@ Current Version: 1.1.3 - 6 August 2017
 * [Tags Page](#tags-page)
 * [Disqus Comments](#disqus-comments)
 * [Subscribe Form](#subscribe-form)
+* [Posts Per Page](#posts-per-page)
 * [Google Analytics](#google-analytics)
 * [Social Media Links](#social-media-links)
 * [Update Favicon](#update-favicon)
@@ -107,6 +108,20 @@ Subscribers can be enabled via a checkbox on the Labs page, in your Ghost admin 
 Once you enabled this feature, the form will appear in the single post page.
 
 You can read more about [Subscribers](http://support.ghost.org/subscribers-beta/)
+
+---
+
+### Posts Per Page
+
+With Ghost 1.0, the ["Posts per page"](https://themes.ghost.org/docs/packagejson#section--config-posts_per_page-) setting is now part of the theme. The config purpose is to control how many posts to show per page from the `package.json` file like this:
+
+```js
+"config": {
+  "posts_per_page": 16
+}
+```
+
+Maxima theme default value is set to `16` posts per page.
 
 ---
 
