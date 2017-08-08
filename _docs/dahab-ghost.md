@@ -20,6 +20,7 @@ Current Version: In review
 * [Posts Per Page](#posts-per-page)
 * [Google Analytics](#google-analytics)
 * [Social Media Links](#social-media-links)
+* [Update Favicon](#update-favicon)
 * [Theme Development](#theme-development)
 * [Support](#support)
 
@@ -206,6 +207,22 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 {% highlight html %}
 <span data-icon="ei-sc-youtube" data-size="s"></span>
 {% endhighlight %}
+
+---
+
+### Update Favicon
+
+#### New Ghost 1.0
+
+The favicon in Ghost 1.0 could be changed from the [Blog settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) from the Publication icon section.
+
+![Update favicon](/images/docs/ghost/shared/update-favicon-ghost-1.png)
+
+#### Old Ghost Versions
+
+You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
+
+![Update favicon](/images/docs/ghost/shared/update-favicon.png)
 
 ---
 

@@ -197,3 +197,5 @@ If you have any questions, I'd be happy to help.
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
+
+---

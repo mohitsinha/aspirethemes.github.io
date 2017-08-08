@@ -195,7 +195,7 @@ The theme is using [Evil Icons](http://evil-icons.io/), which contains very simp
 
 ---
 
-### Update favicon
+### Update Favicon
 
 #### New Ghost 1.0
 
@@ -245,3 +245,5 @@ If you have any questions, I'd be happy to help.
 
 * _Email:_ [aspirethemes@gmail.com](mailto:aspirethemes@gmail.com)
 * _Twitter:_ [@aspirethemes](https://twitter.com/aspirethemes)
+
+---
