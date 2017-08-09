@@ -29,7 +29,7 @@ Current Version: In review
 ### Theme Installation
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
-* Select `General` from the left hand side of your admin area and scroll to the bottom **Themes** section.
+* Select `Design` from the left hand side of your admin area and go to the **Themes** section.
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*dahab.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
@@ -40,19 +40,19 @@ Current Version: In review
 
 In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
 
-![static page](/images/docs/ghost/shared/staticpage.png)
+![static page](/images/docs/ghost/dahab/static-page.png)
 
 ---
 
 ### Navigation
 
-You can add, edit, delete and reorder menu links on your Ghost blog, directly from the navigation tool within the blog admin area, located at **/ghost/settings/navigation/**.
+You can add, edit, delete and reorder menu links on your Ghost blog, directly from the navigation tool within the blog admin area, located at **/ghost/#/settings/design/**.
 
-![navigation menu](/images/docs/ghost/shared/navigation-edit.png)
+![navigation menu](/images/docs/ghost/dahab/navigation-edit.png)
 
 To include a static page on your navigation menu, first, type the name of the page as you'd like it to appear on your menu in the label field.
 
-![label field](/images/docs/ghost/shared/label-field.png)
+![label field](/images/docs/ghost/dahab/label-field.png)
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
 
@@ -60,25 +60,21 @@ Next, click inside the **URL field** of the menu item. The blog URL will auto-po
 
 ### Home Hero
 
-![static page](/images/docs/ghost/dahab/home-hero.png)
+![static page](/images/docs/ghost/dahab/home-hero.jpg)
 
 The hero section shows the cover image and the blog description, which you can edit from the [Blog Settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) admin page.
 
 The theme comes with description support for HTML tags, so you can add normal tags like custom links or headings and the theme will automatically render them on the browser. For example, the demo description is the following:
 
 {% highlight html %}
-<h2>Thoughts, Stories and Ideas.</h2>
-<p>Don't cry because it's over, smile because it happened.
-  <br>
-  - <a href="https://en.wikipedia.org/wiki/Dr._Seuss">Dr. Seuss</a>
-</p>
+<h3>Thoughts, Stories and Ideas.</h3>
 {% endhighlight %}
 
 ---
 
 ### Tags Page
 
-![tags page](/images/docs/ghost/dahab/tags-page.png)
+![tags page](/images/docs/ghost/dahab/tags-page.jpg)
 
 To enable the tags page:
 
@@ -88,7 +84,7 @@ To enable the tags page:
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
 
-![static page](/images/docs/ghost/shared/tags-page.png)
+![static page](/images/docs/ghost/dahab/tags-page.png)
 
 ---
 
@@ -96,10 +92,10 @@ To enable the tags page:
 
 The Theme comes with Disqus comments enabled.
 
-Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
+Open `partials/disqus.hbs` file, and change the `aspirethemes-demos` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
 {% highlight js %}
-var disqus_shortname = "aspirethemes-demo";
+var disqus_shortname = "aspirethemes-demos";
 {% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
@@ -118,7 +114,7 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 
 Subscribers can be enabled via a checkbox on the Labs page, in your Ghost admin panel:
 
-![enable subscribers](/images/docs/ghost/shared/subscribers-enable.png)
+![enable subscribers](/images/docs/ghost/dahab/subscribers-enable.png)
 
 Once you enabled this feature, the form will appear in the single post page.
 
@@ -148,61 +144,63 @@ To integrate Google Analytics, I would recommend reading [How do I add Google An
 
 ### Social Media Links
 
-Social media links are placed in:
+Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, and this will update the Facebook and Twitter URLs in the blog footer.
 
-* `partials/social-nav.hbs`
+![social-accounts](/images/docs/ghost/dahab/social-accounts.png)
+
+If you want to add more static social media links, you can open directly add them in: `partials/social-nav.hbs` file.
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
-**Twitter**
+Twitter
 
 {% highlight html %}
 <span data-icon="ei-sc-twitter" data-size="s"></span>
 {% endhighlight %}
 
-**Facebook**
+Facebook
 
 {% highlight html %}
 <span data-icon="ei-sc-facebook" data-size="s"></span>
 {% endhighlight %}
 
-**Instagram**
+Instagram
 
 {% highlight html %}
 <span data-icon="ei-sc-instagram" data-size="s"></span>
 {% endhighlight %}
 
-**Pinterest**
+Pinterest
 
 {% highlight html %}
 <span data-icon="ei-sc-pinterest" data-size="s"></span>
 {% endhighlight %}
 
-**Vimeo**
+Vimeo
 
 {% highlight html %}
 <span data-icon="ei-sc-vimeo" data-size="s"></span>
 {% endhighlight %}
 
-**Google-plus**
+Google-plus
 
 {% highlight html %}
 <span data-icon="ei-sc-google-plus" data-size="s"></span>
 {% endhighlight %}
 
-**Soundcloud**
+Soundcloud
 
 {% highlight html %}
 <span data-icon="ei-sc-soundcloud" data-size="s"></span>
 {% endhighlight %}
 
-**Tumblr**
+Tumblr
 
 {% highlight html %}
 <span data-icon="ei-sc-tumblr" data-size="s"></span>
 {% endhighlight %}
 
-**Youtube**
+Youtube
 
 {% highlight html %}
 <span data-icon="ei-sc-youtube" data-size="s"></span>
@@ -243,6 +241,16 @@ gulp
 {% endhighlight %}
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
+
+---
+
+To create a clean and small theme package, you can exclude different directories using the following command line:
+
+{% highlight shell %}
+zip -r dahab.zip dahab -x *node_modules* *bower_components* *git*
+{% endhighlight %}
+
+This will exclude *node_modules*, *bower_components*, and *git* directories from the final zip file.
 
 ---
 

@@ -245,6 +245,16 @@ This will compile Sass and JavaScript files, and start watching changes as you e
 
 ---
 
+To create a clean and small theme package, you can exclude different directories using the following command line:
+
+{% highlight shell %}
+zip -r bold.zip bold -x *node_modules* *bower_components* *git*
+{% endhighlight %}
+
+This will exclude *node_modules*, *bower_components*, and *git* directories from the final zip file.
+
+---
+
 Another option is to use the Ghost [Code Injection](https://help.ghost.org/hc/en-us/articles/223403488-Code-Injection) feature. This is great if you don’t want to touch the theme files which is recommended to receive the future theme updates without losing your customizations.
 
 ---
