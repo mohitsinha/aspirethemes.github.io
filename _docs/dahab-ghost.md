@@ -28,6 +28,14 @@ Current Version: In review
 
 ### Theme Installation
 
+This is a quick video showing how to install the theme, upload blog cover image, favicon, social media account, create the tags page, and update the profile information for the editor.
+
+<iframe src="https://www.youtube.com/embed/wqtI7QwCWNc" frameborder="0" allowfullscreen></iframe>
+
+---
+
+For only the theme installation steps, you can check the process below.
+
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
 * Select `Design` from the left hand side of your admin area and go to the **Themes** section.
 * Click on the `Upload a Theme` green button.
