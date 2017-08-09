@@ -40,11 +40,13 @@
   }
 
   &__title {
+    text-align: center;
     margin-bottom: 0;
     font-size: $font-size-base;
   }
 
   &__price {
+    display: none;
     position: absolute;
     right: double($base-spacing-unit);
     bottom: double($base-spacing-unit);
