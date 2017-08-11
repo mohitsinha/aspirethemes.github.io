@@ -198,37 +198,37 @@ Instagram
 <span data-icon="ei-sc-instagram" data-size="s"></span>
 {% endhighlight %}
 
-Instagram
+Pinterest
 
 {% highlight html %}
 <span data-icon="ei-sc-pinterest" data-size="s"></span>
 {% endhighlight %}
 
-Instagram
+Vimeo
 
 {% highlight html %}
 <span data-icon="ei-sc-vimeo" data-size="s"></span>
 {% endhighlight %}
 
-Instagram
+Google Plus
 
 {% highlight html %}
 <span data-icon="ei-sc-google-plus" data-size="s"></span>
 {% endhighlight %}
 
-Instagram
+Soundcloud
 
 {% highlight html %}
 <span data-icon="ei-sc-soundcloud" data-size="s"></span>
 {% endhighlight %}
 
-Instagram
+Tumblr
 
 {% highlight html %}
 <span data-icon="ei-sc-tumblr" data-size="s"></span>
 {% endhighlight %}
 
-Instagram
+Youtube
 
 {% highlight html %}
 <span data-icon="ei-sc-youtube" data-size="s"></span>

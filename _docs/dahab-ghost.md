@@ -190,7 +190,7 @@ Vimeo
 <span data-icon="ei-sc-vimeo" data-size="s"></span>
 {% endhighlight %}
 
-Google-plus
+Google Plus
 
 {% highlight html %}
 <span data-icon="ei-sc-google-plus" data-size="s"></span>
