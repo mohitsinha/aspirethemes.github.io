@@ -10,6 +10,7 @@ Current Version: 1.0.8 - 9 August 2017
 ---
 
 * [Theme Installation](#theme-installation)
+* [Enable the Public API](#enable-the-public-api)
 * [Static Pages](#static-pages)
 * [Navigation](#navigation)
 * [Home Hero](#home-hero)
@@ -44,11 +45,19 @@ Also, you can follow the follwing steps to install the theme:
 
 ---
 
+### Enable the Public API
+
+Public API is important for some functionality like search, tags page, and subscribe form to work properly. You can enable the Public API from Ghost admin. Go to `Labs > Beta features` section and check the *Public API* mark to enable it.
+
+![enable-public-api](/images/docs/ghost/bold/subscribers-enable.png)
+
+---
+
 ### Static Pages
 
 In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.
 
-![static page](/images/docs/ghost/shared/staticpage.png)
+![static page](/images/docs/ghost/bold/static-page.png)
 
 ---
 
@@ -56,11 +65,11 @@ In order to create a static page you create a new post, just like you would any 
 
 You can add, edit, delete and reorder menu links on your Ghost blog, directly from the navigation tool within the blog admin area, located at **/ghost/settings/navigation/**.
 
-![navigation menu](/images/docs/ghost/shared/navigation-edit.png)
+![navigation menu](/images/docs/ghost/bold/navigation-edit.png)
 
 To include a static page on your navigation menu, first, type the name of the page as you'd like it to appear on your menu in the label field.
 
-![label field](/images/docs/ghost/shared/label-field.png)
+![label field](/images/docs/ghost/bold/label-field.png)
 
 Next, click inside the **URL field** of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final **/**. Once satisfied with your page link, click the blue **Save button** to add the page to the navigation menu.
 
@@ -86,21 +95,21 @@ The theme comes with description support for HTML tags, so you can add normal ta
 
 ### Search
 
-For the search to work properly, please enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
+For the search to work properly, please make sure that the [Public API](#enable-the-public-api) is enabled.
 
 ---
 
 ### Tags Page
 
-To enable the tags page:
+To create the tags page:
 
-- Enable the [Public API Beta](http://support.ghost.org/public-api-beta/).
+- Enable the [Public API](#enable-the-public-api).
 - Create a new post and call it `Tags` for example, and make sure that the POST URl is `tags`.
 - Click the `Turn this post into a static page` checkbox.
 - Publish the page.
 - To add the page to the navigation, please check the [Navigation](#navigation) section above.
 
-![static page](/images/docs/ghost/shared/tags-page.png)
+![static page](/images/docs/ghost/bold/tags-page.png)
 
 ---
 
@@ -130,7 +139,7 @@ And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/p
 
 Subscribers can be enabled via a checkbox on the Labs page, in your Ghost admin panel:
 
-![enable subscribers](/images/docs/ghost/shared/subscribers-enable.png)
+![enable subscribers](/images/docs/ghost/bold/subscribers-enable.png)
 
 Once you enabled this feature, the form will appear in the single post page.
 
@@ -156,9 +165,7 @@ Bold theme default value is set to `6` posts per page.
 
 Related posts will be visible on the single post page when there are similar posts with similar tags, and will be hidden otherwise.
 
-You will need to enable the Public Api from Ghost admin. Go to `Settings > Labs` and check the *Public Api* mark to enable it.
-
-![enable-public-api](/images/docs/ghost/shared/enable-public-api.png)
+Enabling the [Public API](#enable-the-public-api) is required.
 
 ---
 
@@ -176,55 +183,55 @@ Social media links are placed in:
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
-**Twitter**
+Twitter
 
 {% highlight html %}
 <span data-icon="ei-sc-twitter" data-size="s"></span>
 {% endhighlight %}
 
-**Facebook**
+Facebook
 
 {% highlight html %}
 <span data-icon="ei-sc-facebook" data-size="s"></span>
 {% endhighlight %}
 
-**Instagram**
+Instagram
 
 {% highlight html %}
 <span data-icon="ei-sc-instagram" data-size="s"></span>
 {% endhighlight %}
 
-**Pinterest**
+Instagram
 
 {% highlight html %}
 <span data-icon="ei-sc-pinterest" data-size="s"></span>
 {% endhighlight %}
 
-**Vimeo**
+Instagram
 
 {% highlight html %}
 <span data-icon="ei-sc-vimeo" data-size="s"></span>
 {% endhighlight %}
 
-**Google-plus**
+Instagram
 
 {% highlight html %}
 <span data-icon="ei-sc-google-plus" data-size="s"></span>
 {% endhighlight %}
 
-**Soundcloud**
+Instagram
 
 {% highlight html %}
 <span data-icon="ei-sc-soundcloud" data-size="s"></span>
 {% endhighlight %}
 
-**Tumblr**
+Instagram
 
 {% highlight html %}
 <span data-icon="ei-sc-tumblr" data-size="s"></span>
 {% endhighlight %}
 
-**Youtube**
+Instagram
 
 {% highlight html %}
 <span data-icon="ei-sc-youtube" data-size="s"></span>

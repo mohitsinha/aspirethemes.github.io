@@ -38,17 +38,14 @@ The following code is a simple example, which contains the name, email, and a te
 
 The required thing to do is to replace the email with your own email address, copy the code to the page content, then you can **publish** the page.
 
-<figure markdown='1'>
-![form-code](/images/posts/ghost-contact/form-code.png)
-<figcaption>Form Code</figcaption>
-</figure>
+![Form Code](/images/posts/ghost-contact/form-code.png)
 
 Now, go to the contact page and submit the form once. This is a required step and you will get an email asking you to confirm your email address.
 
 Once you confirmed your email address, the form will be ready for work and you will get an email once any one sends you an email like the following one.
 
 <figure markdown='1'>
-![form-code](/images/posts/ghost-contact/message.png)
+![Message Example](/images/posts/ghost-contact/message.png)
 <figcaption>Message Example</figcaption>
 </figure>
 
