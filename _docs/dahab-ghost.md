@@ -34,7 +34,7 @@ This is a quick video showing how to install the theme, upload blog cover image,
 
 ---
 
-For only the theme installation steps, you can check the process below.
+Also, you can follow the follwing steps to install the theme:
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
 * Select `Design` from the left hand side of your admin area and go to the **Themes** section.

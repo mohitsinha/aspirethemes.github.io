@@ -28,13 +28,20 @@ Current Version: 1.0.8 - 9 August 2017
 
 ### Theme Installation
 
+This is a quick video showing how to install the theme, upload blog cover image, favicon, create the tags page, and update the profile information for the editor.
+
+<iframe src="https://www.youtube.com/embed/vCmuGncWubQ" frameborder="0" allowfullscreen></iframe>
+
+---
+
+Also, you can follow the follwing steps to install the theme:
+
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
 * Select `Design` from the left hand side of your admin area and scroll to the bottom **Themes** section.
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*bold.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
 
-<script src="https://fast.wistia.com/embed/medias/45lifbpcgo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_45lifbpcgo videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 ---
 
 ### Static Pages
