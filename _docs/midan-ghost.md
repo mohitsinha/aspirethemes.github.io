@@ -5,7 +5,7 @@ categories: docs
 platform: Ghost
 ---
 
-Current Version: 1.1.4 - 6 March 2017
+Current Version: 1.1.5 - 13 August 2017
 
 ---
 
@@ -25,7 +25,7 @@ Current Version: 1.1.4 - 6 March 2017
 ### Theme Installation
 
 * Log into the admin section of your Ghost blog `yourblog.com/ghost`.
-* Select `General` from the left hand side of your admin area and scroll to the bottom **Themes** section.
+* Select `Design` from the left hand side of your admin area and go to the **Themes** section.
 * Click on the `Upload a Theme` green button.
 * An upload box will open, then choose the theme (*midan.zip*) within the downloaded package.
 * Once uploaded, click on `Activate now` button to activate the theme immediately or `Close` if you want to activate it later.
