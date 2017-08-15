@@ -21,6 +21,7 @@ Current Version: 1.4.2 - 30 July 2017
 * [Google Analytics](#google-analytics)
 * [Subscribe Form](#subscribe-form)
 * [Social Media Links](#social-media-links)
+* [Update Favicon](#update-favicon)
 * [Copyright Information](#copyright-information)
 * [Theme Development](#theme-development)
 * [Support](#support)
@@ -105,6 +106,8 @@ To set up the Twitter feed:
 
 ### Instagram
 
+#### New Ghost 1.0
+
 The Instagram feed is working using [Instafeed.js](http://instafeedjs.com/) to show the photos.
 
 First, you will need to get your account `userId` and `accessToken` from the following URLs:
@@ -125,6 +128,12 @@ var instagramFeed = new Instafeed({
 ```
 
 You can control how much images to show by changing the `limit` number. Theme default is set to `9` images.
+
+#### Old Ghost Versions
+
+- To generate a new Instagram feed for your account, please visit [Instansive](http://instansive.com/).
+
+- Customize the widget based on a username or hashtag, then you will get a code for the widget, open `partials/sidebar/widget-instagram.hbs` file and paste the code.
 
 ---
 
@@ -239,6 +248,22 @@ Youtube
 {% highlight html %}
 <span data-icon="ei-sc-youtube" data-size="s"></span>
 {% endhighlight %}
+
+---
+
+### Update Favicon
+
+#### New Ghost 1.0
+
+The favicon in Ghost 1.0 could be changed from the [Blog settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) from the Publication icon section.
+
+![Update favicon](/images/docs/ghost/shared/update-favicon-ghost-1.png)
+
+#### Old Ghost Versions
+
+You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
+
+![Update favicon](/images/docs/ghost/shared/update-favicon.png)
 
 ---
 

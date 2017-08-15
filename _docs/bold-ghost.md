@@ -22,6 +22,7 @@ Current Version: 1.0.8 - 9 August 2017
 * [Related Posts](#related-posts)
 * [Google Analytics](#google-analytics)
 * [Social Media Links](#social-media-links)
+* [Update Favicon](#update-favicon)
 * [Theme Development](#theme-development)
 * [Support](#support)
 
@@ -237,6 +238,21 @@ Youtube
 <span data-icon="ei-sc-youtube" data-size="s"></span>
 {% endhighlight %}
 
+---
+
+### Update Favicon
+
+#### New Ghost 1.0
+
+The favicon in Ghost 1.0 could be changed from the [Blog settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) from the Publication icon section.
+
+![Update favicon](/images/docs/ghost/shared/update-favicon-ghost-1.png)
+
+#### Old Ghost Versions
+
+You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
+
+![Update favicon](/images/docs/ghost/shared/update-favicon.png)
 
 ---
 
