@@ -51,7 +51,8 @@
 
   &__title {
     margin-bottom: 0;
-    font-size: $font-size-base;
+    font-size: $font-size-h4;
+    font-weight: $font-weight-bold;
     line-height: $line-height-base;
     transition: $global-transition;
   }
