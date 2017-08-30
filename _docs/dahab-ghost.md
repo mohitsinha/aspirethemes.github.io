@@ -239,7 +239,7 @@ If you are a developer and need to do customization work, the theme is using [Gu
 First, make sure you have [Node.js](https://nodejs.org/en/), [npm](https://www.npmjs.com/), and [Bower](https://bower.io/#install-bower) installed, then run the-the following commands in the theme root directory to install *npm* and *bower* dependencies.
 
 {% highlight shell %}
-yarn install
+npm install
 {% endhighlight %}
 
 To start Gulp, run:

@@ -71,7 +71,7 @@ Magaz Theme comes with Disqus comments enabled.
 Open `partials/disqus.hbs` file, and change the `aspirethemes-demo` value for the `disqus_shortname` variable to match your Disqus account shortname.
 
 {% highlight js %}
-var disqus_shortname = "aspirethemes-demo";
+var disqus_shortname = "aspirethemes-demos";
 {% endhighlight %}
 
 So, if your Disqus shortname is `exampleone`, the final code above should be
@@ -133,12 +133,14 @@ You will need to enable the Public Api from Ghost admin. Go to `Settings > Labs`
 
 ### Social Media Links
 
+Ghost supports adding Facebook and Twitter profile URLs from the admin panel, go to **General > Social accounts** and add your URLs, and this will update the Facebook and Twitter URLs in the blog footer.
+
+![social-accounts](/images/docs/ghost/dahab/social-accounts.png)
+
 Social media links are placed in different places (files):
 
-* `partials/footer.hbs`
 * `partials/header.hbs`
-
-Ghost 0.8.0 supports adding Facebook and Twitter profile URLs from the admin panel, go to **Settings > General** and add your URLs, and this will update the Facebook and Twitter URLs in the locations mentioned above, other social media URLs you can add it from the files.
+* `partials/footer.hbs`
 
 The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. Here you can find a list of the social media icons to use:
 
@@ -200,9 +202,13 @@ Youtube
 
 ### Update favicon
 
+#### New Ghost 1.0
+
 The favicon in Ghost 1.0 could be changed from the [Blog settings](https://help.ghost.org/hc/en-us/articles/223207167-Blog-Settings-Overview) from the Publication icon section.
 
 ![Update favicon](/images/docs/ghost/shared/update-favicon-ghost-1.png)
+
+#### Old Ghost Versions
 
 You can find the current favicon inside the theme **assets** directory, just replace it with your new favicon, then upload to the server.
 
@@ -233,6 +239,20 @@ gulp
 {% endhighlight %}
 
 This will compile Sass and JavaScript files, and start watching changes as you edit files.
+
+---
+
+To create a clean and small theme package, you can exclude different directories using the following command line:
+
+{% highlight shell %}
+zip -r magaz.zip magaz -x *node_modules* *bower_components* *git*
+{% endhighlight %}
+
+This will exclude *node_modules*, *bower_components*, and *git* directories from the final zip file.
+
+---
+
+Another option is to use the Ghost [Code Injection](https://help.ghost.org/hc/en-us/articles/223403488-Code-Injection) feature. This is great if you don’t want to touch the theme files which is recommended to receive the future theme updates without losing your customizations.
 
 ---
 
