@@ -24,19 +24,19 @@ description: Software Development Blog
 </div>
 
 <div class='o-grid'>
-  {% for theme in themes limit:4 %}
-    {% include theme-card.liquid %}
+  {% for post in site.posts limit:4 %}
+    {% include post-card.html %}
   {% endfor %}
 </div>
 
 <div class='o-grid'>
   <div class='o-grid__col o-grid__col--2-4'>
-    <a class='c-btn c-btn--primary c-btn--full' href='/themes'>Browse Themes</a>
+    <a class='c-btn c-btn--primary c-btn--full' href='/themes'>Read Blogs</a>
   </div>
 
-  <div class='o-grid__col o-grid__col--2-4'>
-    <a class='c-btn c-btn--secondary c-btn--full' href='/docs'>Documentation</a>
-  </div>
+  <!--<div class='o-grid__col o-grid__col&#45;&#45;2-4'>-->
+    <!--<a class='c-btn c-btn&#45;&#45;secondary c-btn&#45;&#45;full' href='/docs'>Documentation</a>-->
+  <!--</div>-->
 </div>
 
 {% include features.html %}
