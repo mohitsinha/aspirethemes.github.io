@@ -1,119 +1,119 @@
-- title:      The Full Plate
-  url:        https://www.thefullplate.life/
-  theme:      Aspire
-  type:       Ghost
-  screenshot: thefullplate.png
-
-- title:      Hello Bhutan
-  url:        http://www.hellobhutan.ch/
-  theme:      Maxima
-  type:       WordPress
-  screenshot: hellobhutan.png
-
-- title:      Pixel News
-  url:        https://pixelnews.fr/
-  theme:      Aspire
-  type:       Jekyll
-  screenshot: pixelnews.png
-
-- title:      The Guardant
-  url:        http://www.theguardant.com/
-  theme:      Aspire
-  type:       Ghost
-  screenshot: theguardant.png
-
-- title:      Noah Bershatsky
-  url:        https://bershatsky.com/
-  theme:      maxima
-  type:       Ghost
-  screenshot: bershatsky.png
-
-- title:      DigitalFyre
-  url:        https://digitalfyre.blog/
-  theme:      Maxima
-  type:       Ghost
-  screenshot: digitalfyre.png
-
-- title:      OnCalled
-  url:        https://oncalled.com/blog/
-  theme:      magaz
-  type:       Ghost
-  screenshot: oncalled.png
-
-- title:      Autism Ladder
-  url:        http://www.autismladder.com/
-  theme:      magaz
-  type:       Ghost
-  screenshot: autismladder.png
-
-- title:      AfterShip
-  url:        https://blog.aftership.com/
-  theme:      Aspire
-  type:       Ghost
-  screenshot: aftership.png
-
-- title:      CONSCIOUS VEGAN
-  url:        http://consciousvegan.co.uk/
-  theme:      maxima
-  type:       WordPress
-  screenshot: consciousvegan.png
-
-- title:      EventsBase Magazine
-  url:        http://eventsbase.co.uk/
-  theme:      aspire
-  type:       WordPress
-  screenshot: eventsbase.png
-
-- title:      REV MARTINE OBORNE
-  url:        http://www.martineoborne.com/
-  theme:      real
-  type:       Ghost
-  screenshot: martineoborne.png
-
-- title:      Llei d'Engel
-  url:        http://lleiengel.cat/
-  theme:      east
-  type:       WordPress
-  screenshot: lleiengel.png
-
-- title:      Zambia Awakens
-  url:        http://zambiaawakens.com/
-  theme:      aspire
-  type:       WordPress
-  screenshot: zambiaawakens.png
-
-- title:      INSIGHT by expertDB
-  url:        https://www.expertdb.com/blog/
-  theme:      magaz
-  type:       WordPress
-  screenshot: expertdb.png
-
-- title:      Mdwnon
-  url:        http://mdwnon.com/Blog/
-  theme:      aspire
-  type:       WordPress
-  screenshot: mdwnon.png
-
-- title:      Anaesthesie
-  url:        http://www.anaesthesie.news/
-  theme:      aspire
-  type:       WordPress
-  screenshot: anaesthesie.png
-
-- title:      MyCognition
-  url:        http://www.mycognition.com/blog/
-  theme:      east
-  type:       WordPress
-  screenshot: mycognition.png
-
-- title:      Axel Rock
-  url:        http://axelrock.fr/
-  theme:      east
-  type:       Jekyll
-  screenshot: axelrock.png
-
-- title:      Agent of Chaos
-  url:        http://agentof.ch/aos/
-  theme:      midan
-  type:       Ghost
-  screenshot: agentof.png
+#- title:      The Full Plate
+#  url:        https://www.thefullplate.life/
+#  theme:      Aspire
+#  type:       Ghost
+#  screenshot: thefullplate.png
+#
+#- title:      Hello Bhutan
+#  url:        http://www.hellobhutan.ch/
+#  theme:      Maxima
+#  type:       WordPress
+#  screenshot: hellobhutan.png
+#
+#- title:      Pixel News
+#  url:        https://pixelnews.fr/
+#  theme:      Aspire
+#  type:       Jekyll
+#  screenshot: pixelnews.png
+#
+#- title:      The Guardant
+#  url:        http://www.theguardant.com/
+#  theme:      Aspire
+#  type:       Ghost
+#  screenshot: theguardant.png
+#
+#- title:      Noah Bershatsky
+#  url:        https://bershatsky.com/
+#  theme:      maxima
+#  type:       Ghost
+#  screenshot: bershatsky.png
+#
+#- title:      DigitalFyre
+#  url:        https://digitalfyre.blog/
+#  theme:      Maxima
+#  type:       Ghost
+#  screenshot: digitalfyre.png
+#
+#- title:      OnCalled
+#  url:        https://oncalled.com/blog/
+#  theme:      magaz
+#  type:       Ghost
+#  screenshot: oncalled.png
+#
+#- title:      Autism Ladder
+#  url:        http://www.autismladder.com/
+#  theme:      magaz
+#  type:       Ghost
+#  screenshot: autismladder.png
+#
+#- title:      AfterShip
+#  url:        https://blog.aftership.com/
+#  theme:      Aspire
+#  type:       Ghost
+#  screenshot: aftership.png
+#
+#- title:      CONSCIOUS VEGAN
+#  url:        http://consciousvegan.co.uk/
+#  theme:      maxima
+#  type:       WordPress
+#  screenshot: consciousvegan.png
+#
+#- title:      EventsBase Magazine
+#  url:        http://eventsbase.co.uk/
+#  theme:      aspire
+#  type:       WordPress
+#  screenshot: eventsbase.png
+#
+#- title:      REV MARTINE OBORNE
+#  url:        http://www.martineoborne.com/
+#  theme:      real
+#  type:       Ghost
+#  screenshot: martineoborne.png
+#
+#- title:      Llei d'Engel
+#  url:        http://lleiengel.cat/
+#  theme:      east
+#  type:       WordPress
+#  screenshot: lleiengel.png
+#
+#- title:      Zambia Awakens
+#  url:        http://zambiaawakens.com/
+#  theme:      aspire
+#  type:       WordPress
+#  screenshot: zambiaawakens.png
+#
+#- title:      INSIGHT by expertDB
+#  url:        https://www.expertdb.com/blog/
+#  theme:      magaz
+#  type:       WordPress
+#  screenshot: expertdb.png
+#
+#- title:      Mdwnon
+#  url:        http://mdwnon.com/Blog/
+#  theme:      aspire
+#  type:       WordPress
+#  screenshot: mdwnon.png
+#
+#- title:      Anaesthesie
+#  url:        http://www.anaesthesie.news/
+#  theme:      aspire
+#  type:       WordPress
+#  screenshot: anaesthesie.png
+#
+#- title:      MyCognition
+#  url:        http://www.mycognition.com/blog/
+#  theme:      east
+#  type:       WordPress
+#  screenshot: mycognition.png
+#
+#- title:      Axel Rock
+#  url:        http://axelrock.fr/
+#  theme:      east
+#  type:       Jekyll
+#  screenshot: axelrock.png
+#
+#- title:      Agent of Chaos
+#  url:        http://agentof.ch/aos/
+#  theme:      midan
+#  type:       Ghost
+#  screenshot: agentof.png
